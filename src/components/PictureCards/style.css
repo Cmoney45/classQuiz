@@ -1,0 +1,30 @@
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 325px;
+  margin: 1rem;
+  position: relative;
+  width: 325px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.card > .card-img {
+  overflow: hidden;
+
+}
+
+.protitle {
+  position: absolute;
+  text-align: center;
+  bottom: 15px;
+  width: 100%;
+  padding: 15px;
+  background-color: #111111 ;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
