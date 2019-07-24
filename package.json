@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "classQuiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cmoney45.github.io/Memory_game/",
+  "homepage": "https://cmoney45.github.io/classQuiz/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.1",
