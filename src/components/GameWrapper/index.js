@@ -1,24 +1,12 @@
 import React, { Component } from 'react';
 import "./style.css";
-import dinosaurs from "../../dinosaurs.json";
+import Store from "../../store";
 
 export default class GameWrapper extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      currentSet: dinosaurs,
-      currentSetCount: 0,
-      highScore: 0,
-      score: 0,
-      guessedImages: [],
-
-    };
-  };
 
   userGuess = id => {
-    const currentGuess = this.state.currentSet.filter(friend => friend.id === id);
-    const guessedImages = this.state.guessedImages;
+    const currentGuess = Store.currentSet.filter(friend => friend.id === id);
+    const guessedImages = Store.guessedImages;
     let duplicateGuess = false;
 
     for (let i in guessedImages) {
@@ -36,18 +24,18 @@ export default class GameWrapper extends Component {
       this.setState({ guessedImages: guessedImages });
     }
 
-    this.shuffleCurretSet(this.state.currentSet);
+    this.shuffleCurretSet(Store.currentSet);
   };
 
   updateScores = (correctGuess) => {
-    let score = this.state.score;
+    let score = Store.score;
 
     this.setState({ score: score + 1 })
 
-    if (this.state.score >= this.state.highScore) {
-      this.setState({ highScore: this.state.highScore + 1 })
+    if (Store.score >= Store.highScore) {
+      this.setState({ highScore: Store.highScore + 1 })
     }
-    this.setState({ currentSetCount: this.state.currentSetCount + 1 })
+    this.setState({ currentSetCount: Store.currentSetCount + 1 })
 
   }
 
@@ -71,12 +59,13 @@ export default class GameWrapper extends Component {
 
     this.setState({ currentSet: newSet })
   }
-  
+
   render() {
 
-    return (<div className="wrapper mt-3">
-      {this.props.children}
-    </div>
+    return (
+      <div className="wrapper mt-3">
+        {this.props.children}
+      </div>
     );
   }
 }

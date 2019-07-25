@@ -1,18 +1,14 @@
 import React, { Component } from 'react';
 import "./style.css";
+import Store from "../../store";
 
-export default class PictureCard extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-
-    };
-  };
+class PictureCard extends Component {
 
   render() {
+    let { id } = this.props.store.state;
+
   return (
-    <div className="card bg-dark" onClick={() => this.props.removeFriend(this.props.id)}>
+    <div className="card bg-dark" onClick={() => this.props.removeFriend(id)}>
       <img className="card-img" alt={this.props.name} src={this.props.image} />
         <div className="protitle">
           {this.props.name}
@@ -21,3 +17,5 @@ export default class PictureCard extends Component {
   );
   }
 }
+
+export default Store.withStore(PictureCard);
