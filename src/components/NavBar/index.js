@@ -3,15 +3,17 @@ import Store from "../../store";
 
 class Navbar extends Component {
 
-  render () {
-    let store = this.props.store;
+  render() {
+    let store = this.props.store.state;
 
     return (
-    <div className="navbar fixed-top navbar-light bg-dark text-light">
-      <h2 className="mr-auto">{`D&D Class Quiz`}</h2>
-      <h4 className="m-auto">Click an image to start!</h4>
-      <h4 className="ml-auto">Questions Answered: {store.state.score} | Top Score: {store.state.highScore} </h4>
-    </div>
+      <div className="navbar fixed-top navbar-light bg-dark text-light">
+        <h2 className="mr-auto">{`D&D Class Quiz`}</h2>
+        {store.gameRunning
+          ? <h4 className="ml-auto">Questions Answered: {store.questionsAnswered}/{store.totalQuestions} </h4>
+          : <div className="ml-auto" />
+        }
+      </div>
     );
   }
 }
