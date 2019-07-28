@@ -7,7 +7,5 @@ export default createConnectedStore({
     gameRunning: false,
     currentQuestionBank: [],
     currentAnswers: [],
-    currentQuestion: [],
-    questionAbove: [],
-    questionBelow:[],
+    currentQuestionIndex: 0,
 })
