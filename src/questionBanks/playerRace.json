@@ -1,7 +1,7 @@
 [
     {
-        "question": "25.  It's worse to be: ",
-        "answer": [
+        "question": "It's worse to be: ",
+        "answers": [
             {
                 "name": "q301",
                 "value": "1",
@@ -15,7 +15,7 @@
         ]
     },
     {
-        "question": "26.  It's better to be: ",
+        "question": "It's better to be: ",
         "answers": [
             {
                 "name": "q302",
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "question": "27.  It's better to have: ",
+        "question": "It's better to have: ",
         "answers": [
             {
                 "name": "q303",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "question": "28.  It's better to be: ",
+        "question": "It's better to be: ",
         "answers": [
             {
                 "name": "q304",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "question": "29.  It's worse to be: ",
+        "question": "It's worse to be: ",
         "answers": [
             {
                 "name": "q305",
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "question": "30.  My friends would say that I am... ",
+        "question": "My friends would say that I am... ",
         "answers": [
             {
                 "name": "q306",
@@ -241,7 +241,7 @@
     },
     {
         "question": "36.  In high school, I was... ",
-        "answer": [
+        "answers": [
             {
                 "name": "q312",
                 "value": "1",

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PictureCards from "../Questionaire";
 import Store from "../../store";
+import "./style.css";
 
 class Board extends Component {
 
@@ -8,7 +9,7 @@ class Board extends Component {
         const { store } = this.props
 
         return (
-            <div>
+            <div className="mt-5">
         {
             store.get('gameRunning')
             ? <PictureCards /> : null
