@@ -6,9 +6,10 @@ class Board extends Component {
 
     render() {
         return (
-                    <PictureCards
-                    />
-        )}
+            <PictureCards
+            />
+        )
     }
+}
 
 export default Store.withStore(Board);

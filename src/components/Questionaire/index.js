@@ -5,25 +5,26 @@ import testBank from "../../questionBanks/abilityScores.json"
 
 class PictureCard extends Component {
 
-  questionAnswer = (state) => {
-    state.currentQuestionIndex++;
-    state.questionsAnswered++;
+  questionAnswer = (store) => {
+    store.set('currentQuestionIndex')(store.get('currentQuestionIndex') + 1);
+    store.set('questionsAnswered')(store.get('questionsAnswered') + 1);
   }
-
   render() {
-    let state = this.props.store.state;
+    console.log(testBank);
+
+    const { store } = this.props
 
     return (
       <div className="card bg-dark">
-        <p>{testBank[state.currentQuestionIndex].question}</p>
-        {testBank[state.currentQuestionIndex].answers.map((answer, index) => (
+        <p>{testBank[store.get('currentQuestionIndex')].question}</p>
+        {testBank[store.get('currentQuestionIndex')].answers.map((answer, index) => (
           <button
             key={index}
             id={index}
             className="btn btn-primary btn-lg btn-block mycss-HMAnswerButton"
-            onClick={() => this.questionAnswer(state)}
+            onClick={() => this.questionAnswer(store)}
           >
-            {index + 1}{".   "}{answer.answer}
+            {answer.answer}
           </button>
         ))}
       </div>

@@ -226,7 +226,7 @@
     },
     {
         "question": "10. When it comes to my problem-solving ability...",
-        "answer": [
+        "answers": [
             {
                 "name": "q50",
                 "value": "1",
@@ -251,7 +251,7 @@
     },
     {
         "question": "11. How tough are you?",
-        "answer": [
+        "answers": [
             {
                 "name": "q51",
                 "value": "2",
@@ -276,7 +276,7 @@
     },
     {
         "question": "12. My body...",
-        "answer": [
+        "answers": [
             {
                 "name": "q52",
                 "value": "1",
@@ -301,7 +301,7 @@
     },
     {
         "question": "13. When it comes to common sense...",
-        "answer": [
+        "answers": [
             {
                 "name": "q53",
                 "value": "2",
@@ -326,7 +326,7 @@
     },
     {
         "question": "14. Rate your sensory perception ability.",
-        "answer": [
+        "answers": [
             {
                 "name": "q54",
                 "value": "1",
@@ -351,7 +351,7 @@
     },
     {
         "question": "15. I can lift...",
-        "answer": [
+        "answers": [
             {
                 "name": "q55",
                 "value": "1",
@@ -376,7 +376,7 @@
     },
     {
         "question": "16. When it comes to sprinting...",
-        "answer": [
+        "answers": [
             {
                 "name": "q56",
                 "value": "2",
@@ -401,7 +401,7 @@
     },
     {
         "question": "17. The following statement most accurately describes me.",
-        "answer": [
+        "answers": [
             {
                 "name": "q57",
                 "value": "1",
@@ -426,7 +426,7 @@
     },
     {
         "question": "18. When it comes to hand-eye coordination...",
-        "answer": [
+        "answers": [
             {
                 "name": "q58",
                 "value": "1",
@@ -451,7 +451,7 @@
     },
     {
         "question": "19. This statement accurately describes me: ",
-        "answer": [
+        "answers": [
             {
                 "name": "q59",
                 "value": "1",
@@ -476,7 +476,7 @@
     },
     {
         "question": "20. The following statement most accurately describes my tolerance for alcohol:",
-        "answer": [
+        "answers": [
             {
                 "name": "q60",
                 "value": "1",
@@ -501,7 +501,7 @@
     },
     {
         "question": "21. The following statement describes the amount of physical labor I regularly perform:",
-        "answer": [
+        "answers": [
             {
                 "name": "q61",
                 "value": "1",
@@ -526,7 +526,7 @@
     },
     {
         "question": "22. When it comes to reflexes...",
-        "answer": [
+        "answers": [
             {
                 "name": "q62",
                 "value": "1",
