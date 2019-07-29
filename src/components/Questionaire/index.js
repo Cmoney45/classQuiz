@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import "./style.css";
 import Store from "../../store";
-import testBank from "../../questionBanks/abilityScores.json"
 
 class PictureCard extends Component {
 
@@ -10,14 +9,13 @@ class PictureCard extends Component {
     store.set('questionsAnswered')(store.get('questionsAnswered') + 1);
   }
   render() {
-    console.log(testBank);
 
     const { store } = this.props
 
     return (
       <div className="card bg-dark">
-        <p>{testBank[store.get('currentQuestionIndex')].question}</p>
-        {testBank[store.get('currentQuestionIndex')].answers.map((answer, index) => (
+        <p>{store.get('currentQuestionBank')[store.get('currentQuestionIndex')].question}</p>
+        {store.get('currentQuestionBank')[store.get('currentQuestionIndex')].answers.map((answer, index) => (
           <button
             key={index}
             id={index}

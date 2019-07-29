@@ -6,7 +6,7 @@ export default class GameWrapper extends Component {
   render() {
 
     return (
-      <div className="wrapper mt-3">
+      <div className="wrapper">
         {this.props.children}
       </div>
     );

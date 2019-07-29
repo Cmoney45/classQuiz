@@ -1,7 +1,7 @@
 [
     {
         "question": "103.  Family elders are expressing disapproval of you to the rest of the family.  Do you:",
-        "answer": [
+        "answers": [
             {
                 "name": "q201",
                 "value": "1",
@@ -201,7 +201,7 @@
     },
     {
         "question": "111.  Have you ever betrayed a friend?",
-        "answer": [
+        "answers": [
             {
                 "name": "q209",
                 "value": "1",
@@ -801,7 +801,7 @@
     },
     {
         "question": "135.  If you could buy counterfeit one-hundred dollar bills for one dollar each, would you buy and spend them?",
-        "answer": [
+        "answers": [
             {
                 "name": "q233",
                 "value": "1",

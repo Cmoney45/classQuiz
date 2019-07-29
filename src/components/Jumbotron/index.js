@@ -12,6 +12,7 @@ class Jumbotron extends Component {
     startDaGame = (store) => {
         let fullBank = statsBank.concat(classBank, raceBank, alignmentBank, levelBank);
         store.set('currentQuestionBank')(fullBank);
+        store.set('totalQuestions')(fullBank.length);
         store.set('gameRunning')(true);
     }
     render() {
