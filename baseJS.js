@@ -1,18 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-					"http://www.w3.org?TR/xhtml1/DTD/xhtml1-transitional-dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<!--meta http-equiv="content-type" content="text/html; charset=utf-8" /-->
-<link rel="stylesheet" type="text/css" href="alignmentstyle.css" />
-<meta name="keywords" content="d20, character, what, am, I, dungeons, dragons, D&D, fifth, edition, custom, characters" />
-<meta name="description" content="A survey to determine what type of Dungeons and Dragons character you would be." />
-			
-<!--<title>What D&amp;D Character Am I?</title>-->
-
-<title>What D&D Character Am I?</title>
-
 <script language="JavaScript" type="text/javascript">
 
 function process()

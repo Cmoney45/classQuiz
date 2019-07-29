@@ -3,7 +3,7 @@ import "./style.css";
 import Store from "../../store";
 
 class PictureCard extends Component {
-
+  const 
   questionAnswer = (userAnswer, store) => {
     // Store the Answer into an array to be analyzed later
     store
@@ -15,7 +15,15 @@ class PictureCard extends Component {
 
     // Update questions Answered
     store.set('questionsAnswered')(store.get('questionsAnswered') + 1);
-    
+
+  };
+
+  analyzeData = (store) => {
+    let allAnswers = store.get('currentAnswesrs')
+
+    for (let i = 0; i < allAnswers.length; i++) {
+
+    }
   };
 
   render() {
