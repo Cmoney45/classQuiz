@@ -5,11 +5,16 @@ import Store from "../../store";
 class Board extends Component {
 
     render() {
+        const { store } = this.props
+
         return (
-            <PictureCards
-            />
-        )
-    }
+            <div>
+        {
+            store.get('gameRunning')
+            ? <PictureCards /> : null
+        }
+        </div>
+        )}
 }
 
 export default Store.withStore(Board);
