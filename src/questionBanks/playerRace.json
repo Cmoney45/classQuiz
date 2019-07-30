@@ -5,11 +5,17 @@
             {
                 "name": "q301",
                 "value": "1",
+		"race": ["elf","halfElf","halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Weak"
             },
             {
                 "name": "q301",
                 "value": "2",
+		"race": ["halfling", "gnome"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Fragile"
             }
         ]
@@ -20,11 +26,17 @@
             {
                 "name": "q302",
                 "value": "1",
+		"race": ["elf", "halfElf", "halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Graceful"
             },
             {
                 "name": "q302",
                 "value": "2",
+		"race": ["dwarf", "gnome"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Tough"
             }
         ]
@@ -35,11 +47,17 @@
             {
                 "name": "q303",
                 "value": "1",
+		"race": ["halforc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Great Strength"
             },
             {
                 "name": "q303",
                 "value": "2",
+		"race": ["dwarf", "gnome"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Great Stamina"
             }
         ]
@@ -50,11 +68,17 @@
             {
                 "name": "q304",
                 "value": "1",
+		"race": ["halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Physically Powerful"
             },
             {
                 "name": "q304",
                 "value": "2",
+		"race": ["elf", "halfElf", "halfling"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Physically Agile"
             }
         ]
@@ -65,11 +89,17 @@
             {
                 "name": "q305",
                 "value": "1",
+		"race": ["gnome", "halfing"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Unliked"
             },
             {
                 "name": "q305",
                 "value": "2",
+		"race": ["dwarf", "halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Weak"
             }
         ]
@@ -80,31 +110,49 @@
             {
                 "name": "q306",
                 "value": "1",
+		"race": ["dwarf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...dependable and loyal."
             },
             {
                 "name": "q306",
                 "value": "2",
+		"race": ["halfling"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...down-to-earth and relaxed."
             },
             {
                 "name": "q306",
                 "value": "3",
+		"race": ["halfElf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...worldly and diplomatic."
             },
             {
                 "name": "q306",
                 "value": "4",
+		"race": ["gnome"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...zany and fun."
             },
             {
                 "name": "q306",
                 "value": "5",
+		"race": ["halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...wild and crazy."
             },
             {
                 "name": "q306",
                 "value": "6",
+		"race": ["elf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...sharp and witty."
             }
         ]
@@ -115,166 +163,250 @@
             {
                 "name": "q307",
                 "value": "1",
+		"race": ["elf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...very thin."
             },
             {
                 "name": "q307",
                 "value": "2",
+		"race": ["halfelf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...thin."
             },
             {
                 "name": "q307",
                 "value": "3",
+		"race": ["gnome"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...about average."
             },
             {
                 "name": "q307",
                 "value": "4",
+		"race": ["halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...thick."
             },
             {
                 "name": "q307",
                 "value": "5",
+		"race": ["dwarf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...very thick."
             }
         ]
     },
     {
-        "question": "32.  I seem to have a knack for... ",
+        "question": "I seem to have a knack for... ",
         "answers": [
             {
                 "name": "q308",
                 "value": "1",
+		"race": ["dwarf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...the military life."
             },
             {
                 "name": "q308",
                 "value": "2",
+		"race": ["elf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...academics."
             },
             {
                 "name": "q308",
                 "value": "3",
+		"race": ["gnome"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...entertainment."
             },
             {
                 "name": "q308",
                 "value": "4",
+		"race": ["halfing"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...law, business, or crime."
             },
             {
                 "name": "q308",
                 "value": "5",
+		"race": ["halfElf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...mingling in high society."
             },
             {
                 "name": "q308",
                 "value": "6",
+		"race": ["halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...hanging out in low society."
             },
             {
                 "name": "q308",
                 "value": "7",
+		"race": ["human"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...something else."
             }
         ]
     },
     {
-        "question": "33.  For my gender, I am... ",
+        "question": "For my gender, I am... ",
         "answers": [
             {
                 "name": "q309",
                 "value": "1",
+		"race": ["gnome,"halfling"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...very short."
             },
             {
                 "name": "q309",
                 "value": "2",
+		"race": ["dwarf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...short."
             },
             {
                 "name": "q309",
                 "value": "3",
+		"race": ["halfElf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...of medium height."
             },
             {
                 "name": "q309",
                 "value": "4",
+		"race": ["halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...tall."
             },
             {
                 "name": "q309",
                 "value": "5",
+		"race": ["halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...very tall."
             }
         ]
     },
     {
-        "question": "34.  It's worse to be: ",
+        "question": "It's worse to be: ",
         "answers": [
             {
                 "name": "q310",
                 "value": "1",
+		"race": ["dwarf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Too Skinny"
             },
             {
                 "name": "q310",
                 "value": "2",
+		"race": ["elf, halfelf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Too Stocky"
             }
         ]
     },
     {
-        "question": "35.  It's better to be: ",
+        "question": "It's better to be: ",
         "answers": [
             {
                 "name": "q311",
                 "value": "1",
+		"race": ["dwarf, elf, halfElf, gnome, halfling"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Smart"
             },
             {
                 "name": "q311",
                 "value": "2",
+		"race": ["halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "Strong"
             }
         ]
     },
     {
-        "question": "36.  In high school, I was... ",
+        "question": "In high school, I was... ",
         "answers": [
             {
                 "name": "q312",
                 "value": "1",
+		"race": ["dwarf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...a jock."
             },
             {
                 "name": "q312",
                 "value": "2",
+		"race": ["halfling"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...a hood."
             },
             {
                 "name": "q312",
                 "value": "3",
+		"race": ["gnome"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...a band member."
             },
             {
                 "name": "q312",
                 "value": "4",
+		"race": ["elf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...a nerd."
             },
             {
                 "name": "q312",
                 "value": "5",
+		"race": ["halfOrc"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...an outcast."
             },
             {
                 "name": "q312",
                 "value": "6",
+		"race": ["halfElf"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...a preppie."
             },
             {
                 "name": "q312",
                 "value": "7",
+		"race": ["human"],
+		"qValue": "race",
+		"increase": "2",
                 "answer": "...something else."
             }
         ]
