@@ -1,721 +1,888 @@
 [
     {
         "question": "As far as looks go, I am...",
-	"qValue": "charisma",
         "answers": [
             {
                 "name": "q41",
                 "value": "2",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "2",
                 "answer": "ugly, I am the worst looking member of my social circle."
             },
             {
                 "name": "q41",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "3",
                 "answer": "average, my appearance is normal overall.}    "
             },
             {
                 "name": "q41",
                 "value": "4",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "4",
                 "answer": "attractive, I am the best looking member of my social circle.}    "
             },
             {
                 "name": "q41",
                 "value": "5",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "5",
                 "answer": "extremely attractive, my appearance aids me in every situation in life.    "
             }
         ]
     },
     {
         "question": "When it comes to memory...",
-	"qValue": "intelligence",	
         "answers": [
             {
                 "name": "q42",
                 "value": "2",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "2",
                 "answer": "I have a really hard time remembering things."
             },
             {
                 "name": "q42",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "3",
                 "answer": "I remember most things though subtle details sometimes elude me."
             },
             {
                 "name": "q42",
                 "value": "4",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "4",
                 "answer": "I remember just about everything I'm exposed to.    "
             },
             {
                 "name": "q42",
                 "value": "5",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "5",
                 "answer": "I have a photographic memory and I always remember every detail."
             }
         ]
     },
     {
         "question": "The following statement most accurately describes me.",
-	"qValue": "charisma",
         "answers": [
             {
                 "name": "q43",
                 "value": "1",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "2",
                 "answer": "I have an extremely difficult time making new friends."
             },
             {
                 "name": "q43",
                 "value": "2",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "3",
                 "answer": "I make friends fairly easily and engage in small talk with new acquaintances with ease."
             },
             {
                 "name": "q43",
                 "value": "4",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "5",
                 "answer": "After meeting me, people go out of their way to keep in touch with me."
             },
             {
                 "name": "q43",
                 "value": "5",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "4",
                 "answer": "I make new friends everywhere I go."
             }
         ]
     },
     {
         "question": "When it comes to willpower...     ",
-	"qValue": "wisdom",
         "answers": [
             {
                 "name": "q44",
                 "value": "1",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "5",
                 "answer": "I have no vices and I've never been tempted by anything.    "
             },
             {
                 "name": "q44",
                 "value": "2",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "4",
                 "answer": "I have no vices, but I've been tempted by things from time to time.    "
             },
             {
                 "name": "q44",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "3",
                 "answer": "I have some vices and I succumb to temptation only rarely.    "
             },
             {
                 "name": "q44",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "2",
                 "answer": "I have a hard time avoiding temptation and give in too often."
             }
         ]
     },
     {
         "question": "Rate your persuasiveness.",
-	"qValue": "charisma",
         "answers": [
             {
                 "name": "q45",
                 "value": "1",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "5",
                 "answer": "I can make people do almost anything I want them to do.    "
             },
             {
                 "name": "q45",
                 "value": "2",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "4",
                 "answer": "I have an easy time convincing others to see things my way.    "
             },
             {
                 "name": "q45",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "3",
                 "answer": "I convince others to do things my way some of the time.    "
             },
             {
                 "name": "q45",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "2",
                 "answer": "I have a hard time convincing others to do what I want them to do."
             }
         ]
     },
     {
         "question": "The following statement most accurately describes my health.",
-	"qValue": "constitution",
         "answers": [
             {
                 "name": "q46",
                 "value": "2",
-		"increase": "2",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "2",
                 "answer": "I am sick most of the time.    "
             },
             {
                 "name": "q46",
                 "value": "3",
-		"increase": "3",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "3",
                 "answer": "I seem to get sick as often as most people I know.    "
             },
             {
                 "name": "q46",
                 "value": "4",
-		"increase": "4",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "4",
                 "answer": "I have never missed a day of work due to illness.    "
             },
             {
                 "name": "q46",
                 "value": "5",
-		"increase": "5",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "5",
                 "answer": "I can't remember ever being sick."
             }
         ]
     },
     {
         "question": "When it comes to stamina...",
-	"qValue": "constitution",
         "answers": [
             {
                 "name": "q47",
                 "value": "1",
-		"increase": "3",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "3",
                 "answer": "I am able to exercise with no ill effects."
             },
             {
                 "name": "q47",
                 "value": "3",
-		"increase": "2",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "2",
                 "answer": "I have a hard time running."
             },
             {
                 "name": "q47",
                 "value": "4",
-		"increase": "4",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "4",
                 "answer": "I regularly exert myself physically, and enjoy doing so."
             },
             {
                 "name": "q47",
                 "value": "5",
-		"increase": "5",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "5",
                 "answer": "I physically exert myself all day long on a regular basis."
             }
         ]
     },
     {
         "question": "When it comes to leadership...",
-	"qValue": "charisma",
         "answers": [
             {
                 "name": "q48",
                 "value": "1",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "2",
                 "answer": "I've never been in a leadership position."
             },
             {
                 "name": "q48",
                 "value": "2",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "3",
                 "answer": "I perform adequately when I'm the leader."
             },
             {
                 "name": "q48",
                 "value": "4",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "4",
                 "answer": "People look to me for direction instinctively."
             },
             {
                 "name": "q48",
                 "value": "5",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "charisma",
+                "increase": "5",
                 "answer": "People go out of their way to put me in leadership positions."
             }
         ]
     },
     {
         "question": "Rate your learning ability: ",
-	"qValue": "intelligence",
         "answers": [
             {
                 "name": "q49",
                 "value": "1",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "4",
                 "answer": "I can learn new things very quickly."
             },
             {
                 "name": "q49",
                 "value": "2",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "3",
                 "answer": "I learn as fast as everyone else it seems."
             },
             {
                 "name": "q49",
                 "value": "3",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "5",
                 "answer": "I'm constantly learning new subjects at an astounding rate."
             },
             {
                 "name": "q49",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "2",
                 "answer": "I have a hard time learning new things."
             }
         ]
     },
     {
         "question": "When it comes to my problem-solving ability...",
-	"qValue": "intelligence",
         "answers": [
             {
                 "name": "q50",
                 "value": "1",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "2",
                 "answer": "I am sometimes able to figure out a solution for a problem."
             },
             {
                 "name": "q50",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "3",
                 "answer": "I think I'm pretty good at solving problems and organizing information."
             },
             {
                 "name": "q50",
                 "value": "4",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "4",
                 "answer": "I can easily find solutions to complex problems."
             },
             {
                 "name": "q50",
                 "value": "5",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "5",
                 "answer": "My critical thinking skills are absolutely flawless."
             }
         ]
     },
     {
         "question": "How tough are you?",
-	"qValue": "constitution",
         "answers": [
             {
                 "name": "q51",
                 "value": "2",
-		"increase": "4",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "4",
                 "answer": "I can take punches that would drop normal people."
             },
             {
                 "name": "q51",
                 "value": "3",
-		"increase": "5",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "5",
                 "answer": "I've taken massive blows and kept on fighting."
             },
             {
                 "name": "q51",
                 "value": "4",
-		"increase": "3",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "3",
                 "answer": "I'm not fragile."
             },
             {
                 "name": "q51",
                 "value": "5",
-		"increase": "2",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "2",
                 "answer": "When people jokingly hit me, they hurt me."
             }
         ]
     },
     {
         "question": "My body...",
-	"qValue": "strength",
         "answers": [
             {
                 "name": "q52",
                 "value": "1",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "3",
                 "answer": "is in pretty good shape, given my age."
             },
             {
                 "name": "q52",
                 "value": "2",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "5",
                 "answer": "is on par with most professional athletes."
             },
             {
                 "name": "q52",
                 "value": "3",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "4",
                 "answer": "is in superb shape."
             },
             {
                 "name": "q52",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "2",
                 "answer": "is out of shape, when compared to almost everyone else."
             }
         ]
     },
     {
         "question": "When it comes to common sense...",
-	"qValue": "wisdom",
         "answers": [
             {
                 "name": "q53",
                 "value": "2",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "2",
                 "answer": "People seem to know more than I do most of the time."
             },
             {
                 "name": "q53",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "3",
                 "answer": "I rarely make the same mistake twice."
             },
             {
                 "name": "q53",
                 "value": "4",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "4",
                 "answer": "People always come to me for advice."
             },
             {
                 "name": "q53",
                 "value": "5",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "5",
                 "answer": "I am exceptionally shrewd and cunning."
             }
         ]
     },
     {
         "question": "Rate your sensory perception ability.",
-	"qValue": "wisdom",
         "answers": [
             {
                 "name": "q54",
                 "value": "1",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "3",
                 "answer": "I am aware of most things that occur around me."
             },
             {
                 "name": "q54",
                 "value": "2",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "5",
                 "answer": "I have the keenest senses of anyone I know."
             },
             {
                 "name": "q54",
                 "value": "3",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "2",
                 "answer": "I have extremely poor awareness of my surroundings."
             },
             {
                 "name": "q54",
                 "value": "5",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "4",
                 "answer": "I easily spot details that others miss."
             }
         ]
     },
     {
         "question": "I can lift...",
-	"qValue": "strength",
         "answers": [
             {
                 "name": "q55",
                 "value": "1",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "3",
                 "answer": "about as much as a person of my gender and age should be able to lift."
             },
             {
                 "name": "q55",
                 "value": "2",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "2",
                 "answer": "a lot less than I should be able to lift.I am weak."
             },
             {
                 "name": "q55",
                 "value": "3",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "4",
                 "answer": "noticeably more than most people I know.I am strong."
             },
             {
                 "name": "q55",
                 "value": "4",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "5",
                 "answer": "an astounding amount of weight.I engage in extensive weight training."
             }
         ]
     },
     {
         "question": "When it comes to sprinting...",
-	"qValue": "dexterity",
         "answers": [
             {
                 "name": "q56",
                 "value": "2",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "2",
                 "answer": "I am slower than most people I know."
             },
             {
                 "name": "q56",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "3",
                 "answer": "I am neither slow nor fast compared to the people I know."
             },
             {
                 "name": "q56",
                 "value": "4",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "4",
                 "answer": "I am faster than most people I know."
             },
             {
                 "name": "q56",
                 "value": "5",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "5",
                 "answer": "I am faster than everyone else."
             }
         ]
     },
     {
         "question": "The following statement most accurately describes me.",
-	"qValue": "wisdom",
         "answers": [
             {
                 "name": "q57",
                 "value": "1",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "5",
                 "answer": "My insight concerning life is almost supernatural."
             },
             {
                 "name": "q57",
                 "value": "3",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "4",
                 "answer": "My gut feelings are always right."
             },
             {
                 "name": "q57",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "2",
                 "answer": "I have a hard time judging people's intentions."
             },
             {
                 "name": "q57",
                 "value": "5",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "wisdom",
+                "increase": "5",
                 "answer": "Sometimes my gut feelings are right."
             }
         ]
     },
     {
         "question": "When it comes to hand-eye coordination...",
-	"qValue": "dexterity",
         "answers": [
             {
                 "name": "q58",
                 "value": "1",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "2",
                 "answer": "I'm horrible at video games."
             },
             {
                 "name": "q58",
                 "value": "2",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "5",
                 "answer": "I could be an Olympic marksman."
             },
             {
                 "name": "q58",
                 "value": "3",
-		"increase": "3",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "3",
                 "answer": "I'm about average."
             },
             {
                 "name": "q58",
                 "value": "5",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "3",
                 "answer": "I can juggle well."
             }
         ]
     },
     {
         "question": "This statement accurately describes me: ",
-	"qValue": "intelligence",
         "answers": [
             {
                 "name": "q59",
                 "value": "1",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "5",
                 "answer": "I had the highest GPA in my class."
             },
             {
                 "name": "q59",
                 "value": "2",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "4",
                 "answer": "I was a good student.I consistently made the A / B Honor Roll."
             },
             {
                 "name": "q59",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "3",
                 "answer": "I was an average student.I had decent grades."
             },
             {
                 "name": "q59",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "intelligence",
+                "increase": "2",
                 "answer": "I was a bad student.I had a hard time keeping up."
             }
         ]
     },
     {
         "question": "The following statement most accurately describes my tolerance for alcohol:",
-	"qValue": "constitution",
         "answers": [
             {
                 "name": "q60",
                 "value": "1",
-		"increase": "5",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "5",
                 "answer": "I can drink all night and I never get drunk."
             },
             {
                 "name": "q60",
                 "value": "2",
-		"increase": "4",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "4",
                 "answer": "I have a hard time getting drunk when I drink.I never have a hangover."
             },
             {
                 "name": "q60",
                 "value": "3",
-		"increase": "3",
+                "increase": "3",
+                "ability": "constitution",
+                "qValue": "ability",
                 "answer": "I have a normal tolerance for alcohol.Sometimes I have hangovers from drinking."
             },
             {
                 "name": "q60",
                 "value": "4",
-		"increase": "2",
+                "ability": "constitution",
+                "qValue": "ability",
+                "increase": "2",
                 "answer": "I become drunk even when I consume small amounts of alcohol.My hangovers are horrible."
             }
         ]
     },
     {
         "question": "The following statement describes the amount of physical labor I regularly perform:",
-	"qValue": "strength",
         "answers": [
             {
                 "name": "q61",
                 "value": "1",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "5",
                 "answer": "I engage in difficult physical labor all during the week."
             },
             {
                 "name": "q61",
                 "value": "2",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "4",
                 "answer": "My job involves physical labor or I have an intensive work - out schedule."
             },
             {
                 "name": "q61",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "3",
                 "answer": "My job does not involve much physical labor, but I get enough exercise."
             },
             {
                 "name": "q61",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "2",
                 "answer": "Very little, I have a sedentary job and I do not work out."
             }
         ]
     },
     {
         "question": "When it comes to reflexes...",
-	"qValue": "dexterity",
         "answers": [
             {
                 "name": "q62",
                 "value": "1",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "5",
                 "answer": "My reflexes have saved my life on more than one occasion."
             },
             {
                 "name": "q62",
                 "value": "2",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "4",
                 "answer": "I am extremely quick."
             },
             {
                 "name": "q62",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "3",
                 "answer": "I've never noticed whether I'm fast or slow."
             },
             {
                 "name": "q62",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "2",
                 "answer": "I am extremely slow."
             }
         ]
     },
     {
         "question": "If I punched someone as hard as I could...",
-	"qValue": "strength",
         "answers": [
             {
                 "name": "q63",
                 "value": "2",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "2",
                 "answer": "they would probably laugh at me."
             },
             {
                 "name": "q63",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "3",
                 "answer": "I might hurt them.    "
             },
             {
                 "name": "q63",
                 "value": "4",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "4",
                 "answer": "I would definitely hurt them."
             },
             {
                 "name": "q63",
                 "value": "5",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "strength",
+                "increase": "5",
                 "answer": "I might kill them."
             }
         ]
     },
     {
         "question": "The following statement most accurately describes my athletic ability. ",
-	"qValue": "dexterity",
         "answers": [
             {
                 "name": "q64",
                 "value": "1",
-		"increase": "5",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "5",
                 "answer": "I was picked to play for a professional sports team."
             },
             {
                 "name": "q64",
                 "value": "2",
-		"increase": "4",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "4",
                 "answer": "When being picked for a team, I am always picked first when others know of my ability."
             },
             {
                 "name": "q64",
                 "value": "3",
-		"increase": "3",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "3",
                 "answer": "I have some athletic ability, but it isn't noteworthy."
             },
             {
                 "name": "q64",
                 "value": "4",
-		"increase": "2",
+                "qValue": "ability",
+                "ability": "dexterity",
+                "increase": "2",
                 "answer": "When being picked for a team, I am always picked last when others know of my ability."
             }
         ]

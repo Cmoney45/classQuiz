@@ -6,6 +6,7 @@ class PictureCard extends Component {
   const
   questionAnswer = (userAnswer, store) => {
     // Store the Answer into an array to be analyzed later
+    console.log(userAnswer)
     store
       .set('currentAnswers')(store.get('currentAnswers')
         .concat(userAnswer));
@@ -19,66 +20,8 @@ class PictureCard extends Component {
   };
 
   analyzeData = (store) => {
-    let allAnswers = store.get('currentAnswesrs')
-
-    for (let i = 0; i < allAnswers.length; i++) {
-      switch (allAnswers[i]) {
-        case "q41": switch (allAnswers[i].value) {
-          case "2": charisma += 2; break;
-          case "3": charisma += 3; break;
-          case "4": charisma += 4; break;
-          case "5": charisma += 5;
-        };
-        case "q42": switch (allAnswers[i].value) {
-          case "2": intelligence += 2; break;
-          case "3": intelligence += 3; break;
-          case "4": intelligence += 4; break;
-          case "5": intelligence += 5;
-        };
-        case "q43": switch (allAnswers[i].value) {
-          case "1": charisma += 2; break;
-          case "2": charisma += 3; break;
-          case "4": charisma += 5; break;
-          case "5": charisma += 4;
-        };
-        case "q43": switch (allAnswers[i].value) {
-          case "1": wisdom += 5; break;
-          case "2": wisdom += 4; break;
-          case "3": wisdom += 3; break;
-          case "4": wisdom += 2;
-        };
-        case "q44": switch (allAnswers[i].value) {
-          case "1": wisdom += 5; break;
-          case "2": wisdom += 4; break;
-          case "3": wisdom += 3; break;
-          case "4": wisdom += 2;
-        };
-        case "q45": switch (allAnswers[i].value) {
-          case "1": wisdom += 5; break;
-          case "2": wisdom += 4; break;
-          case "3": wisdom += 3; break;
-          case "4": wisdom += 2;
-        };
-        case "q46": switch (allAnswers[i].value) {
-          case "1": wisdom += 5; break;
-          case "2": wisdom += 4; break;
-          case "3": wisdom += 3; break;
-          case "4": wisdom += 2;
-        };
-        case "q47": switch (allAnswers[i].value) {
-          case "1": wisdom += 5; break;
-          case "2": wisdom += 4; break;
-          case "3": wisdom += 3; break;
-          case "4": wisdom += 2;
-        };
-        case "q48": switch (allAnswers[i].value) {
-          case "1": wisdom += 5; break;
-          case "2": wisdom += 4; break;
-          case "3": wisdom += 3; break;
-          case "4": wisdom += 2;
-        };
-      }
-    }
+    
+  }
 
 
     render() {
