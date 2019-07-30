@@ -1,6 +1,7 @@
 [
     {
-        "question": "1. As far as looks go, I am...     ",
+        "question": "As far as looks go, I am...",
+	"qValue": "charisma",
         "answers": [
             {
                 "name": "q41",
@@ -25,7 +26,8 @@
         ]
     },
     {
-        "question": "2. When it comes to memory...    ",
+        "question": "When it comes to memory...",
+	"qValue": "intelligence",	
         "answers": [
             {
                 "name": "q42",
@@ -50,7 +52,8 @@
         ]
     },
     {
-        "question": "3. The following statement most accurately describes me. ",
+        "question": "The following statement most accurately describes me.",
+	"qValue": "charisma",
         "answers": [
             {
                 "name": "q43",
@@ -75,7 +78,8 @@
         ]
     },
     {
-        "question": "4. When it comes to willpower...     ",
+        "question": "When it comes to willpower...     ",
+	"qValue": "wisdom",
         "answers": [
             {
                 "name": "q44",
@@ -100,7 +104,8 @@
         ]
     },
     {
-        "question": "5. Rate your persuasiveness.",
+        "question": "Rate your persuasiveness.",
+	"qValue": "charisma",
         "answers": [
             {
                 "name": "q45",
@@ -125,7 +130,8 @@
         ]
     },
     {
-        "question": "6. The following statement most accurately describes my health.     ",
+        "question": "The following statement most accurately describes my health.",
+	"qValue": "constitution",
         "answers": [
             {
                 "name": "q46",
@@ -150,7 +156,8 @@
         ]
     },
     {
-        "question": "7. When it comes to stamina...     ",
+        "question": "When it comes to stamina...",
+	"qValue": "constitution",
         "answers": [
             {
                 "name": "q47",
@@ -175,7 +182,8 @@
         ]
     },
     {
-        "question": "8. When it comes to leadership...",
+        "question": "When it comes to leadership...",
+	"qValue": "charisma",
         "answers": [
             {
                 "name": "q48",
@@ -200,7 +208,8 @@
         ]
     },
     {
-        "question": "9. Rate your learning ability: ",
+        "question": "Rate your learning ability: ",
+	"qValue": "intelligence",
         "answers": [
             {
                 "name": "q49",
@@ -225,7 +234,8 @@
         ]
     },
     {
-        "question": "10. When it comes to my problem-solving ability...",
+        "question": "When it comes to my problem-solving ability...",
+	"qValue": "intelligence",
         "answers": [
             {
                 "name": "q50",
@@ -250,7 +260,8 @@
         ]
     },
     {
-        "question": "11. How tough are you?",
+        "question": "How tough are you?",
+	"qValue": "constitution",
         "answers": [
             {
                 "name": "q51",
@@ -275,7 +286,8 @@
         ]
     },
     {
-        "question": "12. My body...",
+        "question": "My body...",
+	"qValue": "strength",
         "answers": [
             {
                 "name": "q52",
@@ -300,7 +312,8 @@
         ]
     },
     {
-        "question": "13. When it comes to common sense...",
+        "question": "When it comes to common sense...",
+	"qValue": "wisdom",
         "answers": [
             {
                 "name": "q53",
@@ -325,7 +338,8 @@
         ]
     },
     {
-        "question": "14. Rate your sensory perception ability.",
+        "question": "Rate your sensory perception ability.",
+	"qValue": "wisdom",
         "answers": [
             {
                 "name": "q54",
@@ -350,7 +364,8 @@
         ]
     },
     {
-        "question": "15. I can lift...",
+        "question": "I can lift...",
+	"qValue": "strength",
         "answers": [
             {
                 "name": "q55",
@@ -375,7 +390,8 @@
         ]
     },
     {
-        "question": "16. When it comes to sprinting...",
+        "question": "When it comes to sprinting...",
+	"qValue": "dexterity",
         "answers": [
             {
                 "name": "q56",
@@ -400,7 +416,8 @@
         ]
     },
     {
-        "question": "17. The following statement most accurately describes me.",
+        "question": "The following statement most accurately describes me.",
+	"qValue": "wisdom",
         "answers": [
             {
                 "name": "q57",
@@ -425,7 +442,8 @@
         ]
     },
     {
-        "question": "18. When it comes to hand-eye coordination...",
+        "question": "When it comes to hand-eye coordination...",
+	"qValue": "dexterity",
         "answers": [
             {
                 "name": "q58",
@@ -450,7 +468,8 @@
         ]
     },
     {
-        "question": "19. This statement accurately describes me: ",
+        "question": "This statement accurately describes me: ",
+	"qValue": "intelligence",
         "answers": [
             {
                 "name": "q59",
@@ -475,7 +494,8 @@
         ]
     },
     {
-        "question": "20. The following statement most accurately describes my tolerance for alcohol:",
+        "question": "The following statement most accurately describes my tolerance for alcohol:",
+	"qValue": "constitution",
         "answers": [
             {
                 "name": "q60",
@@ -500,7 +520,8 @@
         ]
     },
     {
-        "question": "21. The following statement describes the amount of physical labor I regularly perform:",
+        "question": "The following statement describes the amount of physical labor I regularly perform:",
+	"qValue": "strength",
         "answers": [
             {
                 "name": "q61",
@@ -525,7 +546,8 @@
         ]
     },
     {
-        "question": "22. When it comes to reflexes...",
+        "question": "When it comes to reflexes...",
+	"qValue": "dexterity",
         "answers": [
             {
                 "name": "q62",
@@ -550,7 +572,8 @@
         ]
     },
     {
-        "question": "23. If I punched someone as hard as I could...",
+        "question": "If I punched someone as hard as I could...",
+	"qValue": "strength",
         "answers": [
             {
                 "name": "q63",
@@ -575,7 +598,8 @@
         ]
     },
     {
-        "question": "24. The following statement most accurately describes my athletic ability. ",
+        "question": "The following statement most accurately describes my athletic ability. ",
+	"qValue": "dexterity",
         "answers": [
             {
                 "name": "q64",
