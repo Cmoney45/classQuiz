@@ -5,70 +5,70 @@
             {
                 "name": "q237",
                 "value": "1",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "1",
                 "answer": "15 or less years"
             },
             {
                 "name": "q237",
                 "value": "2",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "1",
                 "answer": "16 to 17 years"
             },
             {
                 "name": "q237",
                 "value": "3",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "2",
                 "answer": "18 to 21 years"
             },
             {
                 "name": "q237",
                 "value": "4",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "3",
                 "answer": "22 to 27 years"
             },
             {
                 "name": "q237",
                 "value": "5",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "4",
                 "answer": "28 to 35 years "
             },
             {
                 "name": "q237",
                 "value": "6",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "5",
                 "answer": "36 to 45 years"
             },
             {
                 "name": "q237",
                 "value": "7",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "6",
                 "answer": "46 to 57 years"
             },
             {
                 "name": "q237",
                 "value": "8",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "7",
                 "answer": "58 to 71 years"
             },
             {
                 "name": "q237",
                 "value": "9",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "8",
                 "answer": "72 to 87 years"
             },
             {
                 "name": "q237",
                 "value": "10",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "9",
                 "answer": "88 or more years"
             }
@@ -80,21 +80,21 @@
             {
                 "name": "q238",
                 "value": "1",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "-1",
                 "answer": "...limited life experience. I've done significantly less than every one else."
             },
             {
                 "name": "q238",
                 "value": "2",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "0",
                 "answer": "...a moderate amount of life experience. I've done about as much as everyone else."
             },
             {
                 "name": "q238",
                 "value": "3",
-		"qvalue": "level",
+		"qValue": "level",
 		"increase": "1",
                 "answer": "...a lot of life experience.  I've done significantly more than every one else."
             }

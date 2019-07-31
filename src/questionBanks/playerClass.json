@@ -5,7 +5,7 @@
             {
                 "name": "q71",
                 "value": "1",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "True"
@@ -13,7 +13,7 @@
             {
                 "name": "q71",
                 "value": "2",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "False"
@@ -26,7 +26,7 @@
             {
                 "name": "q72",
                 "value": "1",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...take a stand for what you believe in."
@@ -34,7 +34,7 @@
             {
                 "name": "q72",
                 "value": "2",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...try to see both sides of an issue."
@@ -47,7 +47,7 @@
             {
                 "name": "q409",
                 "value": "1",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...wealth."
@@ -55,7 +55,7 @@
             {
                 "name": "q409",
                 "value": "2",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...power."
@@ -68,7 +68,7 @@
             {
                 "name": "q73",
                 "value": "1",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...rich."
@@ -76,7 +76,7 @@
             {
                 "name": "q73",
                 "value": "2",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...powerful."
@@ -89,7 +89,7 @@
             {
                 "name": "q74",
                 "value": "1",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...to get what I want."
@@ -97,7 +97,7 @@
             {
                 "name": "q74",
                 "value": "2",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...to guide others in making the right decisions."
@@ -110,7 +110,7 @@
             {
                 "name": "q75",
                 "value": "1",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...defend the weak."
@@ -118,7 +118,7 @@
             {
                 "name": "q75",
                 "value": "2",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...help the poor."
@@ -131,7 +131,7 @@
             {
                 "name": "q76",
                 "value": "1",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...stronger."
@@ -139,7 +139,7 @@
             {
                 "name": "q76",
                 "value": "2",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...weaker."
@@ -152,7 +152,7 @@
             {
                 "name": "q77",
                 "value": "1",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...openly and honestly."
@@ -160,8 +160,8 @@
             {
                 "name": "q77",
                 "value": "2",
-		"class": "",
-		"qValue": "ranger",
+		"characterValue": "ranger",
+		"qValue": "class",
 		"increase": "2",
                 "answer": "...using guile and wit."
             }
@@ -173,15 +173,15 @@
             {
                 "name": "q78",
                 "value": "1",
-		"class": "",
-		"qValue": "fighter",
+		"characterValue": "fighter",
+		"qValue": "class",
 		"increase": "2",
                 "answer": "...so that I will be healthier."
             },
             {
                 "name": "q78",
                 "value": "2",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...so that I will be more attractive."
@@ -194,7 +194,7 @@
             {
                 "name": "q79",
                 "value": "1",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...deserve our respect."
@@ -202,7 +202,7 @@
             {
                 "name": "q79",
                 "value": "2",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...are delicious."
@@ -215,7 +215,7 @@
             {
                 "name": "q80",
                 "value": "1",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...education."
@@ -223,7 +223,7 @@
             {
                 "name": "q80",
                 "value": "2",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...common sense."
@@ -236,7 +236,7 @@
             {
                 "name": "q402",
                 "value": "1",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...educate and entertain others."
@@ -244,7 +244,7 @@
             {
                 "name": "q402",
                 "value": "2",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...develop and enlighten yourself."
@@ -257,7 +257,7 @@
             {
                 "name": "q81",
                 "value": "1",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "True"
@@ -265,7 +265,7 @@
             {
                 "name": "q81",
                 "value": "2",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "False"
@@ -278,7 +278,7 @@
             {
                 "name": "q82",
                 "value": "1",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Feeling emotions"
@@ -286,7 +286,7 @@
             {
                 "name": "q82",
                 "value": "2",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Being disciplined"
@@ -299,7 +299,7 @@
             {
                 "name": "q406",
                 "value": "1",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...the power within myself."
@@ -307,7 +307,7 @@
             {
                 "name": "q406",
                 "value": "2",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...the powers that watch over me."
@@ -320,7 +320,7 @@
             {
                 "name": "q83",
                 "value": "1",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...living a disciplined life."
@@ -328,7 +328,7 @@
             {
                 "name": "q83",
                 "value": "2",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...having confidence in yourself."
@@ -341,7 +341,7 @@
             {
                 "name": "q84",
                 "value": "1",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...a higher power."
@@ -349,7 +349,7 @@
             {
                 "name": "q84",
                 "value": "2",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...scientific laws."
@@ -362,7 +362,7 @@
             {
                 "name": "q85",
                 "value": "1",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "New Age religion"
@@ -370,7 +370,7 @@
             {
                 "name": "q85",
                 "value": "2",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Eastern religion"
@@ -383,7 +383,7 @@
             {
                 "name": "q403",
                 "value": "1",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...well-established with a long history."
@@ -391,7 +391,7 @@
             {
                 "name": "q403",
                 "value": "2",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...recently established with innovative new ideas."
@@ -404,7 +404,7 @@
             {
                 "name": "q86",
                 "value": "1",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Wisdom"
@@ -412,7 +412,7 @@
             {
                 "name": "q86",
                 "value": "2",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Wealth"
@@ -425,7 +425,7 @@
             {
                 "name": "q87",
                 "value": "1",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Love"
@@ -433,7 +433,7 @@
             {
                 "name": "q87",
                 "value": "2",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Honor"
@@ -446,7 +446,7 @@
             {
                 "name": "q88",
                 "value": "1",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "I love the city."
@@ -454,7 +454,7 @@
             {
                 "name": "q88",
                 "value": "2",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "I hate the city."
@@ -467,7 +467,7 @@
             {
                 "name": "q89",
                 "value": "1",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Yes"
@@ -475,7 +475,7 @@
             {
                 "name": "q89",
                 "value": "2",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "No"
@@ -488,7 +488,7 @@
             {
                 "name": "q405",
                 "value": "1",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...rely on your own skills."
@@ -496,7 +496,7 @@
             {
                 "name": "q405",
                 "value": "2",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...call for reinforcements."
@@ -509,7 +509,7 @@
             {
                 "name": "q90",
                 "value": "1",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...keep your head and wait for opportune moments."
@@ -517,7 +517,7 @@
             {
                 "name": "q90",
                 "value": "2",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...go at it with everything you've got."
@@ -530,7 +530,7 @@
             {
                 "name": "q91",
                 "value": "1",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...at work."
@@ -538,7 +538,7 @@
             {
                 "name": "q91",
                 "value": "2",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...at play."
@@ -551,7 +551,7 @@
             {
                 "name": "q408",
                 "value": "1",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...loyal."
@@ -559,7 +559,7 @@
             {
                 "name": "q408",
                 "value": "2",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...exotic."
@@ -572,7 +572,7 @@
             {
                 "name": "q92",
                 "value": "1",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...facts."
@@ -580,7 +580,7 @@
             {
                 "name": "q92",
                 "value": "2",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...conviction."
@@ -593,7 +593,7 @@
             {
                 "name": "q93",
                 "value": "1",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...in the city."
@@ -601,7 +601,7 @@
             {
                 "name": "q93",
                 "value": "2",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...in the country."
@@ -614,7 +614,7 @@
             {
                 "name": "q94",
                 "value": "1",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...allows some people to exploit the fears of others."
@@ -622,7 +622,7 @@
             {
                 "name": "q94",
                 "value": "2",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...helps people live meaningful lives."
@@ -635,7 +635,7 @@
             {
                 "name": "q95",
                 "value": "1",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Man is stronger than nature."
@@ -643,7 +643,7 @@
             {
                 "name": "q95",
                 "value": "2",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Nature is stronger than man."
@@ -656,7 +656,7 @@
             {
                 "name": "q96",
                 "value": "1",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Technology is stronger than nature."
@@ -664,7 +664,7 @@
             {
                 "name": "q96",
                 "value": "2",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Nature is stronger than technology."
@@ -677,7 +677,7 @@
             {
                 "name": "q404",
                 "value": "1",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...the supernatural."
@@ -685,7 +685,7 @@
             {
                 "name": "q404",
                 "value": "2",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...the natural world."
@@ -698,7 +698,7 @@
             {
                 "name": "q97",
                 "value": "1",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "True"
@@ -706,7 +706,7 @@
             {
                 "name": "q97",
                 "value": "2",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "False"
@@ -719,7 +719,7 @@
             {
                 "name": "q98",
                 "value": "1",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...actively champion a cause."
@@ -727,7 +727,7 @@
             {
                 "name": "q98",
                 "value": "2",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...live as a good example to others."
@@ -740,7 +740,7 @@
             {
                 "name": "q99",
                 "value": "1",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...learning something new."
@@ -748,7 +748,7 @@
             {
                 "name": "q99",
                 "value": "2",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...leisurely jogging."
@@ -761,7 +761,7 @@
             {
                 "name": "q100",
                 "value": "1",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...alone in the wilderness."
@@ -769,7 +769,7 @@
             {
                 "name": "q100",
                 "value": "2",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...alone working with my hands."
@@ -782,7 +782,7 @@
             {
                 "name": "q101",
                 "value": "1",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "I love technology."
@@ -790,7 +790,7 @@
             {
                 "name": "q101",
                 "value": "2",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "I hate technology."
@@ -803,7 +803,7 @@
             {
                 "name": "q102",
                 "value": "1",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...playing a sport."
@@ -811,7 +811,7 @@
             {
                 "name": "q102",
                 "value": "2",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...reading a book."
@@ -824,7 +824,7 @@
             {
                 "name": "q103",
                 "value": "1",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...fight fair."
@@ -832,7 +832,7 @@
             {
                 "name": "q103",
                 "value": "2",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...fight dirty."
@@ -845,7 +845,7 @@
             {
                 "name": "q104",
                 "value": "1",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Eastern religion"
@@ -853,7 +853,7 @@
             {
                 "name": "q104",
                 "value": "2",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Western religion"
@@ -866,7 +866,7 @@
             {
                 "name": "q105",
                 "value": "1",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...be yourself."
@@ -874,7 +874,7 @@
             {
                 "name": "q105",
                 "value": "2",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...be polite."
@@ -887,7 +887,7 @@
             {
                 "name": "q106",
                 "value": "1",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...a nature documentary."
@@ -895,7 +895,7 @@
             {
                 "name": "q106",
                 "value": "2",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...a scientific documentary."
@@ -908,7 +908,7 @@
             {
                 "name": "q107",
                 "value": "1",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...quick."
@@ -916,7 +916,7 @@
             {
                 "name": "q107",
                 "value": "2",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...tough."
@@ -929,7 +929,7 @@
             {
                 "name": "q108",
                 "value": "1",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...hiking a trail."
@@ -937,7 +937,7 @@
             {
                 "name": "q108",
                 "value": "2",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...discussing philosophy."
@@ -950,7 +950,7 @@
             {
                 "name": "q109",
                 "value": "1",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...use tools and equipment."
@@ -958,7 +958,7 @@
             {
                 "name": "q109",
                 "value": "2",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...do not use tools and equipment."
@@ -971,7 +971,7 @@
             {
                 "name": "q110",
                 "value": "1",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...at the gym."
@@ -979,7 +979,7 @@
             {
                 "name": "q110",
                 "value": "2",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...at church."
@@ -992,7 +992,7 @@
             {
                 "name": "q111",
                 "value": "1",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...well-paid."
@@ -1000,7 +1000,7 @@
             {
                 "name": "q111",
                 "value": "2",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...doing something I enjoy."
@@ -1013,7 +1013,7 @@
             {
                 "name": "q112",
                 "value": "1",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Nature should be left unspoiled and undisturbed."
@@ -1021,7 +1021,7 @@
             {
                 "name": "q112",
                 "value": "2",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Nature should be used responsibly and enjoyed."
@@ -1034,7 +1034,7 @@
             {
                 "name": "q113",
                 "value": "1",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...camping with my friends."
@@ -1042,7 +1042,7 @@
             {
                 "name": "q113",
                 "value": "2",
-		"class": "fighter",
+		"characterValue": "fighter",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...drinking with my friends."
@@ -1055,7 +1055,7 @@
             {
                 "name": "q114",
                 "value": "1",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "True"
@@ -1063,7 +1063,7 @@
             {
                 "name": "q114",
                 "value": "2",
-		"class": "rogue",
+		"characterValue": "rogue",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "False"
@@ -1076,7 +1076,7 @@
             {
                 "name": "q115",
                 "value": "1",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...doing."
@@ -1084,7 +1084,7 @@
             {
                 "name": "q115",
                 "value": "2",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...studying."
@@ -1097,7 +1097,7 @@
             {
                 "name": "q410",
                 "value": "1",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...a person either has it or they don't."
@@ -1105,7 +1105,7 @@
             {
                 "name": "q410",
                 "value": "2",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...that with an excellent teacher, the sky's the limit."
@@ -1118,7 +1118,7 @@
             {
                 "name": "q116",
                 "value": "1",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...my math and science classes."
@@ -1126,7 +1126,7 @@
             {
                 "name": "q116",
                 "value": "2",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...my music and art classes."
@@ -1139,7 +1139,7 @@
             {
                 "name": "q117",
                 "value": "1",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Western religion"
@@ -1147,7 +1147,7 @@
             {
                 "name": "q117",
                 "value": "2",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "New Age religion"
@@ -1160,7 +1160,7 @@
             {
                 "name": "q118",
                 "value": "1",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Yes"
@@ -1168,7 +1168,7 @@
             {
                 "name": "q118",
                 "value": "2",
-		"class": "barbarian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "No"
@@ -1181,7 +1181,7 @@
             {
                 "name": "q119",
                 "value": "1",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...a night on the town."
@@ -1189,7 +1189,7 @@
             {
                 "name": "q119",
                 "value": "2",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...a day riding horses."
@@ -1202,7 +1202,7 @@
             {
                 "name": "q120",
                 "value": "1",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "True"
@@ -1210,7 +1210,7 @@
             {
                 "name": "q120",
                 "value": "2",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "False"
@@ -1223,7 +1223,7 @@
             {
                 "name": "q411",
                 "value": "1",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...has supernatural beings that take a personal interest in me."
@@ -1231,7 +1231,7 @@
             {
                 "name": "q411",
                 "value": "2",
-		"class": "wizard",
+		"characterValue": "wizard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...is governed by impersonal forces that can be understood."
@@ -1244,7 +1244,7 @@
             {
                 "name": "q121",
                 "value": "1",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...improving yourself."
@@ -1252,7 +1252,7 @@
             {
                 "name": "q121",
                 "value": "2",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...having fun."
@@ -1265,7 +1265,7 @@
             {
                 "name": "q122",
                 "value": "1",
-		"class": "druid",
+		"characterValue": "druid",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...enjoying the outdoors."
@@ -1273,7 +1273,7 @@
             {
                 "name": "q122",
                 "value": "2",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...at a good concert."
@@ -1286,7 +1286,7 @@
             {
                 "name": "q401",
                 "value": "1",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...be exciting."
@@ -1294,7 +1294,7 @@
             {
                 "name": "q401",
                 "value": "2",
-		"class": "bararian",
+		"characterValue": "bararian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...frighten me."
@@ -1307,7 +1307,7 @@
             {
                 "name": "q407",
                 "value": "1",
-		"class": "paladin",
+		"characterValue": "paladin",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...a cause."
@@ -1315,7 +1315,7 @@
             {
                 "name": "q407",
                 "value": "2",
-		"class": "warlock",
+		"characterValue": "warlock",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...someone influential."
@@ -1328,7 +1328,7 @@
             {
                 "name": "q123",
                 "value": "1",
-		"class": "ranger",
+		"characterValue": "ranger",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Practical skills"
@@ -1336,7 +1336,7 @@
             {
                 "name": "q123",
                 "value": "2",
-		"class": "monk",
+		"characterValue": "monk",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "Enlightenment"
@@ -1349,7 +1349,7 @@
             {
                 "name": "q124",
                 "value": "1",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...to convince people that I'm right."
@@ -1357,7 +1357,7 @@
             {
                 "name": "q124",
                 "value": "2",
-		"class": "bard",
+		"characterValue": "bard",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...to entertain others."
@@ -1370,7 +1370,7 @@
             {
                 "name": "q125",
                 "value": "1",
-		"class": "cleric",
+		"characterValue": "cleric",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...a higher power."
@@ -1378,7 +1378,7 @@
             {
                 "name": "q125",
                 "value": "2",
-		"class": "sorcerer",
+		"characterValue": "sorcerer",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...myself."
