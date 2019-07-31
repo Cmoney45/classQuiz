@@ -5,17 +5,11 @@ import Store from "../../store";
 class PictureCard extends Component {
   const
   questionAnswer = (userAnswer, store) => {
-    const { qValue, characterValue, increase } = userAnswer;
-    console.log(qValue, characterValue, increase);
-    console.log(store.get("character")[qValue][characterValue])
-    let newCharacterValue = parseInt(store.get("character")[qValue][characterValue] + increase)
-    console.log(newCharacterValue)
-    // Store the Answer into an array to be analyzed later
-    store
-    .set("character")[qValue][characterValue](parseInt(newCharacterValue))
+    let { characterValue, increase } = userAnswer;
+
+    increase = parseInt(increase);
 
     // Store the Answer into an array to be analyzed later
-
     store
       .set('currentAnswers')(store.get('currentAnswers')
         .concat(userAnswer));
@@ -26,12 +20,28 @@ class PictureCard extends Component {
     // Update questions Answered
     store.set('questionsAnswered')(store.get('questionsAnswered') + 1);
 
-  };
+    if (Array.isArray(characterValue)) {
 
-  analyzeData = (store) => {
+      console.log(characterValue, characterValue.length)
 
+      for (let i = 0; i < characterValue.length; i++) {
+
+        store.set(characterValue[i])(store.get(characterValue[i]) + increase)
+
+      }
+
+    }
+
+    else {
+
+      store.set(characterValue)(store.get(characterValue) + increase)
+
+    }
+    
+    if (store.get("questionsAnswered") === (store.get("totalQuestions") - 1)) {
+      store.set("gameRunning")(false);
+    }
   }
-
 
   render() {
 

@@ -5,7 +5,7 @@
             {
                 "name": "q301",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "elf",
                     "halfElf",
                     "halfOrc"
@@ -17,7 +17,7 @@
             {
                 "name": "q301",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "halfling",
                     "gnome"
                 ],
@@ -33,7 +33,7 @@
             {
                 "name": "q302",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "elf",
                     "halfElf",
                     "halfOrc"
@@ -45,7 +45,7 @@
             {
                 "name": "q302",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "dwarf",
                     "gnome"
                 ],
@@ -61,8 +61,8 @@
             {
                 "name": "q303",
                 "value": "1",
-                "race": [
-                    "halforc"
+                "characterValue": [
+                    "halfOrc"
                 ],
                 "qValue": "race",
                 "increase": "2",
@@ -71,7 +71,7 @@
             {
                 "name": "q303",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "dwarf",
                     "gnome"
                 ],
@@ -87,7 +87,7 @@
             {
                 "name": "q304",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "halfOrc"
                 ],
                 "qValue": "race",
@@ -97,7 +97,7 @@
             {
                 "name": "q304",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "elf",
                     "halfElf",
                     "halfling"
@@ -114,9 +114,9 @@
             {
                 "name": "q305",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "gnome",
-                    "halfing"
+                    "halfling"
                 ],
                 "qValue": "race",
                 "increase": "2",
@@ -125,7 +125,7 @@
             {
                 "name": "q305",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "dwarf",
                     "halfOrc"
                 ],
@@ -141,7 +141,7 @@
             {
                 "name": "q306",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "dwarf"
                 ],
                 "qValue": "race",
@@ -151,7 +151,7 @@
             {
                 "name": "q306",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "halfling"
                 ],
                 "qValue": "race",
@@ -161,7 +161,7 @@
             {
                 "name": "q306",
                 "value": "3",
-                "race": [
+                "characterValue": [
                     "halfElf"
                 ],
                 "qValue": "race",
@@ -171,7 +171,7 @@
             {
                 "name": "q306",
                 "value": "4",
-                "race": [
+                "characterValue": [
                     "gnome"
                 ],
                 "qValue": "race",
@@ -181,7 +181,7 @@
             {
                 "name": "q306",
                 "value": "5",
-                "race": [
+                "characterValue": [
                     "halfOrc"
                 ],
                 "qValue": "race",
@@ -191,7 +191,7 @@
             {
                 "name": "q306",
                 "value": "6",
-                "race": [
+                "characterValue": [
                     "elf"
                 ],
                 "qValue": "race",
@@ -206,7 +206,7 @@
             {
                 "name": "q307",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "elf"
                 ],
                 "qValue": "race",
@@ -216,8 +216,8 @@
             {
                 "name": "q307",
                 "value": "2",
-                "race": [
-                    "halfelf"
+                "characterValue": [
+                    "halfElf"
                 ],
                 "qValue": "race",
                 "increase": "2",
@@ -226,7 +226,7 @@
             {
                 "name": "q307",
                 "value": "3",
-                "race": [
+                "characterValue": [
                     "gnome"
                 ],
                 "qValue": "race",
@@ -236,7 +236,7 @@
             {
                 "name": "q307",
                 "value": "4",
-                "race": [
+                "characterValue": [
                     "halfOrc"
                 ],
                 "qValue": "race",
@@ -246,7 +246,7 @@
             {
                 "name": "q307",
                 "value": "5",
-                "race": [
+                "characterValue": [
                     "dwarf"
                 ],
                 "qValue": "race",
@@ -261,7 +261,7 @@
             {
                 "name": "q308",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "dwarf"
                 ],
                 "qValue": "race",
@@ -271,7 +271,7 @@
             {
                 "name": "q308",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "elf"
                 ],
                 "qValue": "race",
@@ -281,7 +281,7 @@
             {
                 "name": "q308",
                 "value": "3",
-                "race": [
+                "characterValue": [
                     "gnome"
                 ],
                 "qValue": "race",
@@ -291,8 +291,8 @@
             {
                 "name": "q308",
                 "value": "4",
-                "race": [
-                    "halfing"
+                "characterValue": [
+                    "halfling"
                 ],
                 "qValue": "race",
                 "increase": "2",
@@ -301,7 +301,7 @@
             {
                 "name": "q308",
                 "value": "5",
-                "race": [
+                "characterValue": [
                     "halfElf"
                 ],
                 "qValue": "race",
@@ -311,7 +311,7 @@
             {
                 "name": "q308",
                 "value": "6",
-                "race": [
+                "characterValue": [
                     "halfOrc"
                 ],
                 "qValue": "race",
@@ -321,7 +321,7 @@
             {
                 "name": "q308",
                 "value": "7",
-                "race": [
+                "characterValue": [
                     "human"
                 ],
                 "qValue": "race",
@@ -336,7 +336,7 @@
             {
                 "name": "q309",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "gnome",
                     "halfling"
                 ],
@@ -347,7 +347,7 @@
             {
                 "name": "q309",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "dwarf"
                 ],
                 "qValue": "race",
@@ -357,7 +357,7 @@
             {
                 "name": "q309",
                 "value": "3",
-                "race": [
+                "characterValue": [
                     "halfElf"
                 ],
                 "qValue": "race",
@@ -367,7 +367,7 @@
             {
                 "name": "q309",
                 "value": "4",
-                "race": [
+                "characterValue": [
                     "halfOrc"
                 ],
                 "qValue": "race",
@@ -377,7 +377,7 @@
             {
                 "name": "q309",
                 "value": "5",
-                "race": [
+                "characterValue": [
                     "halfOrc"
                 ],
                 "qValue": "race",
@@ -392,7 +392,7 @@
             {
                 "name": "q310",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "dwarf"
                 ],
                 "qValue": "race",
@@ -402,8 +402,8 @@
             {
                 "name": "q310",
                 "value": "2",
-                "race": [
-                    "elf, halfelf"
+                "characterValue": [
+                    "elf, halfElf"
                 ],
                 "qValue": "race",
                 "increase": "2",
@@ -417,8 +417,12 @@
             {
                 "name": "q311",
                 "value": "1",
-                "race": [
-                    "dwarf, elf, halfElf, gnome, halfling"
+                "characterValue": [
+                    "dwarf",
+                    "elf",
+                    "halfElf",
+                    "gnome",
+                    "halfling"
                 ],
                 "qValue": "race",
                 "increase": "2",
@@ -427,7 +431,7 @@
             {
                 "name": "q311",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "halfOrc"
                 ],
                 "qValue": "race",
@@ -442,7 +446,7 @@
             {
                 "name": "q312",
                 "value": "1",
-                "race": [
+                "characterValue": [
                     "dwarf"
                 ],
                 "qValue": "race",
@@ -452,7 +456,7 @@
             {
                 "name": "q312",
                 "value": "2",
-                "race": [
+                "characterValue": [
                     "halfling"
                 ],
                 "qValue": "race",
@@ -462,7 +466,7 @@
             {
                 "name": "q312",
                 "value": "3",
-                "race": [
+                "characterValue": [
                     "gnome"
                 ],
                 "qValue": "race",
@@ -472,7 +476,7 @@
             {
                 "name": "q312",
                 "value": "4",
-                "race": [
+                "characterValue": [
                     "elf"
                 ],
                 "qValue": "race",
@@ -482,7 +486,7 @@
             {
                 "name": "q312",
                 "value": "5",
-                "race": [
+                "characterValue": [
                     "halfOrc"
                 ],
                 "qValue": "race",
@@ -492,7 +496,7 @@
             {
                 "name": "q312",
                 "value": "6",
-                "race": [
+                "characterValue": [
                     "halfElf"
                 ],
                 "qValue": "race",
@@ -502,7 +506,7 @@
             {
                 "name": "q312",
                 "value": "7",
-                "race": [
+                "characterValue": [
                     "human"
                 ],
                 "qValue": "race",
