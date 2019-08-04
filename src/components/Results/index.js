@@ -4,8 +4,30 @@ import "./style.css";
 
 class Results extends Component {
 
+    finalResult = (whereToSearch, store) => {
+        let class1 = "fighter";
+        let classCount = 0;
+        let class2 = null;
+        let playerRace = "human";
+        let playerStats = {};
+        let alignment = [];
+
+        for (let i=0; i < whereToSearch.characterClasses.length; i++) {
+            if (classCount < store.get(whereToSearch.characterClasses[i])){
+                classCount = store.get(whereToSearch.characterClasses[i]);
+                class1 = whereToSearch.characterClasses[i]
+            }
+        }
+
+        for (let i=0; i < whereToSearch.abilities.length; i++ ) {
+            {whereToSearch.abilities[i]:store.get(whereToSearch.abilities[i])}
+        }
+
+    }
+
     render() {
         const { store } = this.props;
+
         const characterClasses = [
             'fighter',
             'ranger',
@@ -20,6 +42,7 @@ class Results extends Component {
             'wizard',
             'warlock'
         ]
+
         const abilities = [
             'strength',
             'dexterity',
@@ -28,6 +51,7 @@ class Results extends Component {
             'wisdom',
             'charisma'
         ]
+
         const race = [
             'dwarf',
             'elf',
@@ -37,6 +61,7 @@ class Results extends Component {
             'halfOrc',
             'gnome'
         ]
+
         const alignment = [
             'xg',
             'xn',
@@ -54,9 +79,8 @@ class Results extends Component {
             'cn',
             'ce',
         ]
-        const allQs = [abilities, race, alignment, characterClasses]
-        console.log(allQs);
 
+        const allQs = [abilities, race, alignment, characterClasses]
 
         return (
             <div>
