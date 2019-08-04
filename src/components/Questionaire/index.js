@@ -3,7 +3,7 @@ import "./style.css";
 import Store from "../../store";
 
 class PictureCard extends Component {
-  const
+
   questionAnswer = (userAnswer, store) => {
     let { characterValue, increase } = userAnswer;
 
