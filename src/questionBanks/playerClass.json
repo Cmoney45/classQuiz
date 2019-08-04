@@ -1294,7 +1294,7 @@
             {
                 "name": "q401",
                 "value": "2",
-		"characterValue": "bararian",
+		"characterValue": "barbarian",
 		"qValue": "class",
 		"increase": "2",
                 "answer": "...frighten me."

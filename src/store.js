@@ -34,9 +34,9 @@ const initialState = {
     // races: {
     dwarf: 0,
     elf: 0,
-    halfElf: 0,
+    halfElf: 4,
     halfling: 0,
-    human: 0,
+    human: 10,
     halfOrc: 0,
     gnome: 0,
     // },

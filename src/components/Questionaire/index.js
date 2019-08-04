@@ -22,8 +22,6 @@ class PictureCard extends Component {
 
     if (Array.isArray(characterValue)) {
 
-      console.log(characterValue, characterValue.length)
-
       for (let i = 0; i < characterValue.length; i++) {
 
         store.set(characterValue[i])(store.get(characterValue[i]) + increase)

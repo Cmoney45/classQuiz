@@ -10,12 +10,17 @@ class Board extends Component {
 
         return (
             <div className="mt-5">
-        {
-            store.get('gameRunning')
-            ? <PictureCards /> : null
-        }
-        </div>
-        )}
+                {
+                    store.get('gameRunning')
+                        ? <PictureCards /> : null
+                }
+                {
+                    store.get('gameCompleted')
+                        ? 'temp work' : null
+                }
+            </div>
+        )
+    }
 }
 
 export default Store.withStore(Board);
