@@ -799,7 +799,7 @@
                 "name": "q222",
                 "value": "3",
                 "qValue": "alignment",
-                "characterValue": "cs",
+                "characterValue": "cx",
                 "increase": "1",
                 "answer": "No, a politician is no better than anyone else."
             },
@@ -807,7 +807,7 @@
                 "name": "q222",
                 "value": "4",
                 "qValue": "alignment",
-                "characterValue": "cs",
+                "characterValue": "cx",
                 "increase": "2",
                 "answer": "No, politicians are invariably corrupted by power."
             }
@@ -955,7 +955,7 @@
                 "name": "q226",
                 "value": "4",
                 "qValue": "alignment",
-                "characterValue": "xh",
+                "characterValue": "xg",
                 "increase": "2",
                 "answer": "No one has any 'right' to treat another badly at all."
             }

@@ -26,7 +26,11 @@ class Jumbotron extends Component {
 
         return (store.get('gameRunning')
             ? null
-            : <div className="jumbotron jumbotron-fluid">
+            : 
+            store.get('gameCompleted')
+            ? null
+            :
+            <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-4 text-center">{`D&D Class Quiz`}</h1>
                     <p className="lead text-center">

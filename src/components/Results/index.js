@@ -4,26 +4,55 @@ import "./style.css";
 
 class Results extends Component {
 
-    // finalResult = (whereToSearch, store) => {
-    //     let class1 = "fighter";
-    //     let classCount = 0;
-    //     let class2 = null;
-    //     let playerRace = "human";
-    //     let playerStats = {};
-    //     let alignment = [];
+    finalResult = (whereToSearch, store) => {
+        let class1 = "fighter";
+        let classCount = 0;
+        let class2 = null;
+        let playerRace = "human";
+        let playerRaceCount = store.get(playerRace)
+        let playerStats = {};
+        let alignment = [];
 
-    //     for (let i=0; i < whereToSearch.characterClasses.length; i++) {
-    //         if (classCount < store.get(whereToSearch.characterClasses[i])){
-    //             classCount = store.get(whereToSearch.characterClasses[i]);
-    //             class1 = whereToSearch.characterClasses[i]
-    //         }
-    //     }
+        // Player Class
+        // Loop through characterClasses
+        for (let i = 0; i < whereToSearch.characterClasses.length; i++) {
+            // get current index value
+            let currentIndexCount = store.get(whereToSearch.characterClasses[i]);
 
-    //     for (let i=0; i < whereToSearch.abilities.length; i++ ) {
-    //         {whereToSearch.abilities[i]:store.get(whereToSearch.abilities[i])}
-    //     }
+            // If it's greater than current class count, change the class
+            if (classCount < currentIndexCount) {
+                classCount = currentIndexCount;
+                class1 = whereToSearch.characterClasses[i]
+                class2 = null;
+            }
+            // If it's equal, set the multi-class
+            if (classCount === currentIndexCount) {
+                class2 = whereToSearch.characterClasses[i]
+            }
+        }
 
-    // }
+        // Player Abilities
+        for (let i = 0; i < whereToSearch.abilities.length; i++) {
+
+            const ability = { 
+                abilityName: whereToSearch.abilities[i],
+                value: store.get(whereToSearch.abilities[i])
+            } 
+
+            Object.assign(playerStats, ability);
+        }
+
+        // Player Race
+        for (let i = 0; i < whereToSearch.characterClasses.length; i++) {
+            let currentIndexCount = store.get(whereToSearch.race[i])
+
+            if (playerRaceCount < currentIndexCount) {
+                playerRaceCount = currentIndexCount;
+                playerRace = whereToSearch.race[i]
+            }
+        }
+
+    }
 
     render() {
         const { store } = this.props;
@@ -62,28 +91,22 @@ class Results extends Component {
             'gnome'
         ]
 
-        const alignment = [
-            'xg',
-            'xn',
-            'xe',
+        const alignmentLvC = [
             'lx',
             'nx',
             'cx',
-            'lg',
-            'ln',
-            'le',
-            'ng',
-            'nn',
-            'ne',
-            'cg',
-            'cn',
-            'ce',
         ]
 
-        const allQs = [abilities, race, alignment, characterClasses]
+        const alignmentGvE = [
+            'xg',
+            'xn',
+            'xe',
+        ]
+
+        const allQs = [abilities, race, alignmentLvC, alignmentGvE, characterClasses]
 
         return (
-            <div>
+            <div id='details'>
                 {allQs.map((bank, index) => (
                     <div
                         key={index}
@@ -94,7 +117,7 @@ class Results extends Component {
                                 <li
                                     key={index2}
                                 >{eachResult.toUpperCase()}: {store.get(eachResult)}
-                            </li>
+                                </li>
                             ))}
                         </ul>
                     </div>

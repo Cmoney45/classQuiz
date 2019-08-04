@@ -4,6 +4,14 @@ import Store from "../../store";
 
 class PictureCard extends Component {
 
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      currentPage: "",
+    };
+  }
+  
   questionAnswer = (userAnswer, store) => {
     let { characterValue, increase } = userAnswer;
 
@@ -35,9 +43,10 @@ class PictureCard extends Component {
       store.set(characterValue)(store.get(characterValue) + increase)
 
     }
-    
+
     if (store.get("questionsAnswered") === (store.get("totalQuestions") - 1)) {
-      store.set("gameRunning")(false);
+      store.set("gameRunning")(null);
+      store.set("gameCompleted")(true);
     }
   }
 

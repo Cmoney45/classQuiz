@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PictureCards from "../Questionaire";
+import Results from '../Results'
 import Store from "../../store";
 import "./style.css";
 
@@ -16,7 +17,7 @@ class Board extends Component {
                 }
                 {
                     store.get('gameCompleted')
-                        ? 'temp work' : null
+                        ? <Results /> : null
                 }
             </div>
         )

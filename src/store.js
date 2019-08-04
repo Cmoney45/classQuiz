@@ -5,6 +5,7 @@ const initialState = {
     questionsAnswered: 0,
     totalQuestions: 0,
     gameRunning: false,
+    gameCompleted: false,
     currentQuestionBank: [],
     currentAnswers: [],
     currentQuestionIndex: 0,

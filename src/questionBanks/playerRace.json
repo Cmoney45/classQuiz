@@ -403,7 +403,8 @@
                 "name": "q310",
                 "value": "2",
                 "characterValue": [
-                    "elf, halfElf"
+                    "elf",
+                    "halfElf"
                 ],
                 "qValue": "race",
                 "increase": "2",
