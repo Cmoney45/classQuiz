@@ -4,58 +4,119 @@ import "./style.css";
 
 class Results extends Component {
 
-    finalResult = (whereToSearch, store) => {
-        let class1 = "fighter";
-        let classCount = 0;
-        let class2 = null;
-        let playerRace = "human";
-        let playerRaceCount = store.get(playerRace)
-        let playerStats = {};
-        let alignment = [];
+    constructor(props){
+        super(props);
+        this.state = {
+             class1 : "fighter",
+             classCount: 0,
+             class2: null,
+             playerRace: "human",
+             playerRaceCount: 0,
+             playerStats: {},
+             alignment: [],
+        }
+      }
 
+    finalResult = (whereToSearch, store) => {
+        // let class1 = "fighter";
+        // let classCount = 0;
+        // let class2 = null;
+        // let playerRace = "human";
+        // let playerRaceCount = store.get(playerRace)
+        // let playerStats = {};
+        // let alignment = [];
+        console.log(whereToSearch, store);
         // Player Class
         // Loop through characterClasses
-        for (let i = 0; i < whereToSearch.characterClasses.length; i++) {
+        for (let i = 0; i < whereToSearch[4].length; i++) {
             // get current index value
-            let currentIndexCount = store.get(whereToSearch.characterClasses[i]);
+            let currentIndexCount = store.get(whereToSearch[4][i]);
 
             // If it's greater than current class count, change the class
-            if (classCount < currentIndexCount) {
-                classCount = currentIndexCount;
-                class1 = whereToSearch.characterClasses[i]
-                class2 = null;
+            if (this.state.classCount < currentIndexCount) {
+                this.state.classCount = currentIndexCount;
+                this.state.class1 = whereToSearch[4][i]
+                this.state.class2 = null;
             }
             // If it's equal, set the multi-class
-            if (classCount === currentIndexCount) {
-                class2 = whereToSearch.characterClasses[i]
+            if (this.state.classCount === currentIndexCount) {
+                this.state.class2 = whereToSearch[4][i]
             }
         }
 
         // Player Abilities
-        for (let i = 0; i < whereToSearch.abilities.length; i++) {
+        for (let i = 0; i < whereToSearch[0].length; i++) {
 
-            const ability = { 
-                abilityName: whereToSearch.abilities[i],
-                value: store.get(whereToSearch.abilities[i])
-            } 
+              const  abilityName= whereToSearch[0][i];
+               const value= store.get(whereToSearch[0][i]);
+            
 
-            Object.assign(playerStats, ability);
+            this.state.playerStats[abilityName] = value;
         }
 
         // Player Race
-        for (let i = 0; i < whereToSearch.characterClasses.length; i++) {
-            let currentIndexCount = store.get(whereToSearch.race[i])
+        for (let i = 0; i < whereToSearch[1].length; i++) {
+            let currentIndexCount = store.get(whereToSearch[1][i])
 
-            if (playerRaceCount < currentIndexCount) {
-                playerRaceCount = currentIndexCount;
-                playerRace = whereToSearch.race[i]
+            if (this.state.playerRaceCount < currentIndexCount) {
+                this.state.playerRaceCount = currentIndexCount;
+                this.state.playerRace = whereToSearch[1][i]
             }
         }
 
     }
 
     componentDidMount() {
-        this.finalResult();
+        const { store } = this.props;
+
+        const characterClasses = [
+            'fighter',
+            'ranger',
+            'paladin',
+            'cleric',
+            'druid',
+            'bard',
+            'monk',
+            'sorcerer',
+            'barbarian',
+            'rogue',
+            'wizard',
+            'warlock'
+        ]
+
+        const abilities = [
+            'strength',
+            'dexterity',
+            'constitution',
+            'intelligence',
+            'wisdom',
+            'charisma'
+        ]
+
+        const race = [
+            'dwarf',
+            'elf',
+            'halfElf',
+            'halfling',
+            'human',
+            'halfOrc',
+            'gnome'
+        ]
+
+        const alignmentLvC = [
+            'lx',
+            'nx',
+            'cx',
+        ]
+
+        const alignmentGvE = [
+            'xg',
+            'xn',
+            'xe',
+        ]
+
+        const allQs = [abilities, race, alignmentLvC, alignmentGvE, characterClasses]
+        this.finalResult(allQs, store);
     }
 
     render() {
