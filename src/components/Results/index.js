@@ -54,6 +54,10 @@ class Results extends Component {
 
     }
 
+    componentDidMount() {
+        this.finalResult();
+    }
+
     render() {
         const { store } = this.props;
 

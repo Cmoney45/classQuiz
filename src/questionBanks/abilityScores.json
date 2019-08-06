@@ -16,7 +16,7 @@
                 "qValue": "ability",
                 "characterValue": "charisma",
                 "increase": "3",
-                "answer": "average, my appearance is normal overall.}    "
+                "answer": "average, my appearance is normal overall."
             },
             {
                 "name": "q41",
@@ -24,7 +24,7 @@
                 "qValue": "ability",
                 "characterValue": "charisma",
                 "increase": "4",
-                "answer": "attractive, I am the best looking member of my social circle.}    "
+                "answer": "attractive, I am the best looking member of my social circle."
             },
             {
                 "name": "q41",
@@ -32,7 +32,7 @@
                 "qValue": "ability",
                 "characterValue": "charisma",
                 "increase": "5",
-                "answer": "extremely attractive, my appearance aids me in every situation in life.    "
+                "answer": "extremely attractive, my appearance aids me in every situation in life."
             }
         ]
     },
@@ -61,7 +61,7 @@
                 "qValue": "ability",
                 "characterValue": "intelligence",
                 "increase": "4",
-                "answer": "I remember just about everything I'm exposed to.    "
+                "answer": "I remember just about everything I'm exposed to."
             },
             {
                 "name": "q42",
@@ -119,7 +119,7 @@
                 "qValue": "ability",
                 "characterValue": "wisdom",
                 "increase": "5",
-                "answer": "I have no vices and I've never been tempted by anything.    "
+                "answer": "I have no vices and I've never been tempted by anything."
             },
             {
                 "name": "q44",
@@ -127,7 +127,7 @@
                 "qValue": "ability",
                 "characterValue": "wisdom",
                 "increase": "4",
-                "answer": "I have no vices, but I've been tempted by things from time to time.    "
+                "answer": "I have no vices, but I've been tempted by things from time to time."
             },
             {
                 "name": "q44",
@@ -135,7 +135,7 @@
                 "qValue": "ability",
                 "characterValue": "wisdom",
                 "increase": "3",
-                "answer": "I have some vices and I succumb to temptation only rarely.    "
+                "answer": "I have some vices and I succumb to temptation only rarely."
             },
             {
                 "name": "q44",
@@ -156,7 +156,7 @@
                 "qValue": "ability",
                 "characterValue": "charisma",
                 "increase": "5",
-                "answer": "I can make people do almost anything I want them to do.    "
+                "answer": "I can make people do almost anything I want them to do."
             },
             {
                 "name": "q45",
@@ -164,7 +164,7 @@
                 "qValue": "ability",
                 "characterValue": "charisma",
                 "increase": "4",
-                "answer": "I have an easy time convincing others to see things my way.    "
+                "answer": "I have an easy time convincing others to see things my way."
             },
             {
                 "name": "q45",
@@ -172,7 +172,7 @@
                 "qValue": "ability",
                 "characterValue": "charisma",
                 "increase": "3",
-                "answer": "I convince others to do things my way some of the time.    "
+                "answer": "I convince others to do things my way some of the time."
             },
             {
                 "name": "q45",
@@ -193,7 +193,7 @@
                 "characterValue": "constitution",
                 "qValue": "ability",
                 "increase": "2",
-                "answer": "I am sick most of the time.    "
+                "answer": "I am sick most of the time."
             },
             {
                 "name": "q46",
@@ -201,7 +201,7 @@
                 "characterValue": "constitution",
                 "qValue": "ability",
                 "increase": "3",
-                "answer": "I seem to get sick as often as most people I know.    "
+                "answer": "I seem to get sick as often as most people I know."
             },
             {
                 "name": "q46",
@@ -209,7 +209,7 @@
                 "characterValue": "constitution",
                 "qValue": "ability",
                 "increase": "4",
-                "answer": "I have never missed a day of work due to illness.    "
+                "answer": "I have never missed a day of work due to illness."
             },
             {
                 "name": "q46",

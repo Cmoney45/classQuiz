@@ -1,4 +1,4 @@
-import { createConnectedStore, withLogger } from 'undux'
+import { createConnectedStore } from 'undux'
 
 // Create a store with an initial value.
 const initialState = {
@@ -63,4 +63,4 @@ const initialState = {
     // }
 }
 
-export default createConnectedStore(initialState, withLogger);
+export default createConnectedStore(initialState);
