@@ -37,6 +37,7 @@ class Results extends Component {
                 this.state.classCount = currentIndexCount;
                 this.state.class1 = whereToSearch[4][i]
                 this.state.class2 = null;
+                
             }
             // If it's equal, set the multi-class
             if (this.state.classCount === currentIndexCount) {
