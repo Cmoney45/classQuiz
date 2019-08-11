@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import {
+  List,
+  ListItem,
+  Divider,
+  Card,
+  CardHeader,
+  CardContent,
+} from '@material-ui/core'
 import "./style.css";
 import Store from "../../store";
 
@@ -11,7 +19,7 @@ class PictureCard extends Component {
       currentPage: "",
     };
   }
-  
+
   questionAnswer = (userAnswer, store) => {
     let { characterValue, increase } = userAnswer;
 
@@ -50,29 +58,41 @@ class PictureCard extends Component {
     }
   }
 
+
   render() {
 
     const { store } = this.props
+    // const [selectedIndex, setSelectedIndex] = React.useState(1);
+
 
     return (
-      <div className="card bg-dark mt-4">
-        <p>
-          {store.get('currentQuestionBank')[store.get('currentQuestionIndex')].question}
-        </p>
-        {store
-          .get('currentQuestionBank')[store.get('currentQuestionIndex')]
-          .answers
-          .map((answer, index) => (
-            <button
-              key={index}
-              id={index}
-              className="btn btn-primary btn-lg btn-block mycss-HMAnswerButton"
-              onClick={() => this.questionAnswer(answer, store)}
-            >
-              {answer.answer}
-            </button>
-          ))}
-      </div>
+      <Card>
+        <CardContent>
+          <CardHeader
+            title={store.get('currentQuestionBank')[store.get('currentQuestionIndex')].question}
+          />
+          <List component="nav" aria-label="main mailbox folders">
+            {store
+              .get('currentQuestionBank')[store.get('currentQuestionIndex')]
+              .answers
+              .map((answer, index) => (
+                <div>
+                  <Divider
+                    variant='fullWidth'
+                  ></Divider>
+                  <ListItem
+                    button
+                    key={index}
+                    // id={index}
+                    onClick={() => this.questionAnswer(answer, store)}
+                  >
+                    {answer.answer}
+                  </ListItem>
+                </div>
+              ))}
+          </List>
+        </CardContent>
+      </Card>
     );
   }
 }

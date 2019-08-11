@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import PictureCards from "../Questionaire";
+import Jumbotron from "../Jumbotron";
+import Questionaire from "../Questionaire";
 import Results from '../Results'
 import Store from "../../store";
 import "./style.css";
@@ -10,16 +11,20 @@ class Board extends Component {
         const { store } = this.props
 
         return (
-            <div className="mt-5">
-                {
-                    store.get('gameRunning')
-                        ? <PictureCards /> : null
-                }
-                {
-                    store.get('gameCompleted')
-                        ? <Results /> : null
-                }
-            </div>
+
+            store.get('gameRunning')
+                ?
+                < div className="mt-5" >
+                    {
+                        store.get('gameRunning')
+                            ? <Questionaire />
+                            : null
+                    }
+                </div >
+                : store.get('gameCompleted')
+                    ? <Results />
+                    : <Jumbotron />
+
         )
     }
 }

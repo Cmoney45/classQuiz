@@ -4,66 +4,89 @@ import "./style.css";
 
 class Results extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
-             class1 : "fighter",
-             classCount: 0,
-             class2: null,
-             playerRace: "human",
-             playerRaceCount: 0,
-             playerStats: {},
-             alignment: [],
+            class1: "fighter",
+            classCount: 0,
+            class2: null,
+            playerRace: "human",
+            playerRaceCount: 10,
+            playerStats: {},
+            playerAlignmentLvC: 'nx',
+            playerAlignmentLvCCount: 0,
+            playerAlignmentGvE: 'xn',
+            playerAlignmentGvECount: 0,
+            playerAlignment: 'xx'
         }
-      }
+    }
 
     finalResult = (whereToSearch, store) => {
-        // let class1 = "fighter";
-        // let classCount = 0;
-        // let class2 = null;
-        // let playerRace = "human";
-        // let playerRaceCount = store.get(playerRace)
-        // let playerStats = {};
-        // let alignment = [];
-        console.log(whereToSearch, store);
+
+        let abilityArray = whereToSearch[0]
+        let playerRaceArray = whereToSearch[1]
+        let playerLvCArray = whereToSearch[2]
+        let playerGvEArray = whereToSearch[3]
+        let playerClassArray = whereToSearch[4];
+
         // Player Class
         // Loop through characterClasses
-        for (let i = 0; i < whereToSearch[4].length; i++) {
+        for (let i = 0; i < playerClassArray.length; i++) {
             // get current index value
-            let currentIndexCount = store.get(whereToSearch[4][i]);
+            let currentIndexCount = store.get(playerClassArray[i]);
 
             // If it's greater than current class count, change the class
             if (this.state.classCount < currentIndexCount) {
                 this.state.classCount = currentIndexCount;
-                this.state.class1 = whereToSearch[4][i]
+                this.state.class1 = playerClassArray[i]
                 this.state.class2 = null;
-                
+
             }
             // If it's equal, set the multi-class
             if (this.state.classCount === currentIndexCount) {
-                this.state.class2 = whereToSearch[4][i]
+                this.state.class2 = playerClassArray[i]
             }
         }
 
         // Player Abilities
-        for (let i = 0; i < whereToSearch[0].length; i++) {
+        for (let i = 0; i < abilityArray.length; i++) {
 
-              const  abilityName= whereToSearch[0][i];
-               const value= store.get(whereToSearch[0][i]);
-            
+            const abilityName = abilityArray[i];
+            const value = store.get(abilityArray[i]);
+
 
             this.state.playerStats[abilityName] = value;
         }
 
         // Player Race
-        for (let i = 0; i < whereToSearch[1].length; i++) {
-            let currentIndexCount = store.get(whereToSearch[1][i])
+        for (let i = 0; i < playerRaceArray.length; i++) {
+            let currentIndexCount = store.get(playerRaceArray[i])
 
             if (this.state.playerRaceCount < currentIndexCount) {
                 this.state.playerRaceCount = currentIndexCount;
-                this.state.playerRace = whereToSearch[1][i]
+                this.state.playerRace = playerRaceArray[i]
             }
         }
+
+        // Player Alignment
+        for (let i = 0; i < playerLvCArray.length; i++) {
+            let currentIndexCount = store.get(playerLvCArray[i])
+
+            if (this.state.playerAlignmentLvCCount < currentIndexCount) {
+                this.state.playerAlignmentLvCCount = currentIndexCount;
+                this.state.playerAlignmentLvC = playerLvCArray[i]
+            }
+        }
+        for (let i = 0; i < playerGvEArray.length; i++) {
+            let currentIndexCount = store.get(playerGvEArray[i])
+
+            if (this.state.playerAlignmentGvECount < currentIndexCount) {
+                this.state.playerAlignmentGvECount = currentIndexCount;
+                this.state.playerAlignmentGvE = playerGvEArray[i]
+            }
+        }
+
+        this.state.playerAlignment = this.state.playerAlignmentLvC.slice(0,1) + this.state.playerAlignmentGvE.slice(1,2) 
 
     }
 

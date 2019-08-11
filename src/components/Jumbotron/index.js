@@ -6,7 +6,9 @@ import alignmentBank from "../../questionBanks/playerAlignment.json";
 import classBank from "../../questionBanks/playerClass.json";
 import levelBank from "../../questionBanks/playerLevel.json";
 import raceBank from "../../questionBanks/playerRace.json";
-
+import {
+    Button,
+  } from '@material-ui/core';
 
 class Jumbotron extends Component {
     startDaGame = (store) => {
@@ -37,11 +39,12 @@ class Jumbotron extends Component {
                         Click Start! to find out what Race,
                     Class, Alignment and Stats you would have as a {'D&D'} Character!
             </p>
-                    <button
-                        className='btn btn-primary btn-sm btn-block'
+                    <Button
+                     variant='contained'
+                     color='primary'
                         onClick={() =>
                             this.startDaGame(store)
-                        }>Start!</button>
+                        }>Start!</Button>
                 </div>
             </div >)
     }
