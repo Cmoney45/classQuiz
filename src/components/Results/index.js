@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Store from "../../store";
 import "./style.css";
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 
 class Results extends Component {
 
@@ -28,6 +31,17 @@ class Results extends Component {
         let playerLvCArray = whereToSearch[2]
         let playerGvEArray = whereToSearch[3]
         let playerClassArray = whereToSearch[4];
+        let class1= "fighter"
+        let classCount= 0
+        let class2= null
+        let playerRace= "human"
+        let playerRaceCount= 10
+        let playerStats= {}
+        let playerAlignmentLvC= 'nx'
+        let playerAlignmentLvCCount= 0
+        let playerAlignmentGvE= 'xn'
+        let playerAlignmentGvECount= 0
+        let playerAlignment= 'xx'
 
         // Player Class
         // Loop through characterClasses
@@ -36,15 +50,15 @@ class Results extends Component {
             let currentIndexCount = store.get(playerClassArray[i]);
 
             // If it's greater than current class count, change the class
-            if (this.state.classCount < currentIndexCount) {
-                this.state.classCount = currentIndexCount;
-                this.state.class1 = playerClassArray[i]
-                this.state.class2 = null;
+            if (classCount < currentIndexCount) {
+                classCount = currentIndexCount;
+                class1 = playerClassArray[i]
+                class2 = null;
 
             }
             // If it's equal, set the multi-class
-            if (this.state.classCount === currentIndexCount) {
-                this.state.class2 = playerClassArray[i]
+            if (classCount === currentIndexCount) {
+                class2 = playerClassArray[i]
             }
         }
 
@@ -55,16 +69,16 @@ class Results extends Component {
             const value = store.get(abilityArray[i]);
 
 
-            this.state.playerStats[abilityName] = value;
+            playerStats[abilityName] = value;
         }
 
         // Player Race
         for (let i = 0; i < playerRaceArray.length; i++) {
             let currentIndexCount = store.get(playerRaceArray[i])
 
-            if (this.state.playerRaceCount < currentIndexCount) {
-                this.state.playerRaceCount = currentIndexCount;
-                this.state.playerRace = playerRaceArray[i]
+            if (playerRaceCount <= currentIndexCount) {
+                playerRaceCount = currentIndexCount;
+                playerRace = playerRaceArray[i]
             }
         }
 
@@ -72,21 +86,35 @@ class Results extends Component {
         for (let i = 0; i < playerLvCArray.length; i++) {
             let currentIndexCount = store.get(playerLvCArray[i])
 
-            if (this.state.playerAlignmentLvCCount < currentIndexCount) {
-                this.state.playerAlignmentLvCCount = currentIndexCount;
-                this.state.playerAlignmentLvC = playerLvCArray[i]
+            if (playerAlignmentLvCCount < currentIndexCount) {
+                playerAlignmentLvCCount = currentIndexCount;
+                playerAlignmentLvC = playerLvCArray[i]
             }
         }
         for (let i = 0; i < playerGvEArray.length; i++) {
             let currentIndexCount = store.get(playerGvEArray[i])
 
-            if (this.state.playerAlignmentGvECount < currentIndexCount) {
-                this.state.playerAlignmentGvECount = currentIndexCount;
-                this.state.playerAlignmentGvE = playerGvEArray[i]
+            if (playerAlignmentGvECount < currentIndexCount) {
+                playerAlignmentGvECount = currentIndexCount;
+                playerAlignmentGvE = playerGvEArray[i]
             }
         }
 
-        this.state.playerAlignment = this.state.playerAlignmentLvC.slice(0,1) + this.state.playerAlignmentGvE.slice(1,2) 
+        playerAlignment = playerAlignmentLvC.slice(0, 1) + playerAlignmentGvE.slice(1, 2)
+
+        this.setState({
+            class1,
+            classCount,
+            class2,
+            playerRace,
+            playerRaceCount,
+            playerStats,
+            playerAlignmentLvC,
+            playerAlignmentLvCCount,
+            playerAlignmentGvE,
+            playerAlignmentGvECount,
+            playerAlignment
+        })
 
     }
 
@@ -193,24 +221,38 @@ class Results extends Component {
         ]
 
         const allQs = [abilities, race, alignmentLvC, alignmentGvE, characterClasses]
+        const resultName = ["Ability Score", "Race", "Law & Chaos", "Good & Evil", "Class"]
 
         return (
-            <div id='details'>
-                {allQs.map((bank, index) => (
-                    <div
-                        key={index}
-                    >
-                        <div>{} Results</div>
-                        <ul>
-                            {bank.map((eachResult, index2) => (
-                                <li
-                                    key={index2}
-                                >{eachResult.toUpperCase()}: {store.get(eachResult)}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                ))}
+            <div>
+                <div
+                    id="results"
+                > <b>You are a:  </b>
+                    {this.state.playerAlignment} {this.state.playerRace} {this.state.class1}/{this.state.class2}
+                </div>
+                <br></br>
+                <br></br>
+                <div
+                    id='details'
+                >
+                    {allQs.map((bank, index) => (
+                        <ExpansionPanel
+                            key={index}
+                        >
+                            <ExpansionPanelSummary>{resultName[index]} Results</ExpansionPanelSummary>
+                            <ExpansionPanelDetails>
+                                <ul>
+                                    {bank.map((eachResult, index2) => (
+                                        <li
+                                            key={index2}
+                                        >{eachResult.toUpperCase()}: {store.get(eachResult)}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </ExpansionPanelDetails>
+                        </ExpansionPanel>
+                    ))}
+                </div>
             </div>
         )
     }
